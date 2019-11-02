@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import SearchCountry from './pages/SearchCountry';
 
 const privateRoutes = [
-    { path: '/search-country', component: SearchCountry},
+    { path: '/', component: SearchCountry},
 ]
 
 const Routes = () => {

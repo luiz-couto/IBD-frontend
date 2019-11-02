@@ -1,10 +1,12 @@
 import React from 'react';
 
+import SiderMenu from '../../components/SiderMenu';
+
 class SearchCountry extends React.Component{
 
     render() {
         return (
-            <h1>Bla</h1>
+            <SiderMenu />
         );
     }
 }
