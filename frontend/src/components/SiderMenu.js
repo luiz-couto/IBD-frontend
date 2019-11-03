@@ -9,14 +9,14 @@ const { Sider } = Layout;
 const selectedStyle = {
   marginTop: '100px',
   fontSize: '55px',
-  height: '130px',
-  width: '40vw',
-  paddingTop: '35px'
+  height: '160px',
+  width: '47vw',
+  paddingTop: '45px',
 }
 
 const notSelectedStyle = {
   marginTop: '100px',
-  fontSize: '35px',
+  fontSize: '25px',
   height: '60px',
 }
 
@@ -51,26 +51,26 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="1" style={this.state.one_selected ? selectedStyle : notSelectedStyle}onClick={() => {
             this.setState({ one_selected: true, two_selected: false, three_selected: false, four_selected: false })
           }}>
-            <Icon type="user"/>
-            <span className="nav-text">nav 1</span>
+            <Icon type="more"/>
+            <span style={{ borderBottom: '1px solid white'}}>Province La Spezia</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="2" style={this.state.two_selected ? selectedStyle : notSelectedStyle} onClick={() => {
             this.setState({ one_selected: false, two_selected: true, three_selected: false, four_selected: false })
           }}>
-            <Icon type="video-camera" />
-            <span className="nav-text">nav 2</span>
+            <Icon type="more" />
+            <span style={{ borderBottom: '1px solid white'}}>Nullam auctor</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="3" style={this.state.three_selected ? selectedStyle : notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: true, four_selected: false })
           }}>
-            <Icon type="upload" />
-            <span className="nav-text">nav 3</span>
+            <Icon type="more" />
+            <span style={{ borderBottom: '1px solid white'}}>Vivamos sed tellus eget</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="4" style={this.state.four_selected ? selectedStyle : notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: false, four_selected: true })
           }}>
-            <Icon type="user" />
-            <span className="nav-text">nav 4</span>
+            <Icon type="more" />
+            <span style={{ borderBottom: '1px solid white'}}>Curae nam ullamoorper ut mi</span><br></br>
           </Menu.Item>
         </Menu>
       </Sider>
