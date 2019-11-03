@@ -1,0 +1,24 @@
+{
+  "name": "tp0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "2500"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "fastify-plugin": "^1.6.0",
+    "fastify-postgres": "^2.0.0",
+    "pg": "^7.12.1"
+  }
+}
