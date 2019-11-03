@@ -94,8 +94,7 @@ function makeInsertCommand(tableName, textByLine, properties){
 }
 
 function convertCSVToSQL (tableName, file, properties) {
-    let text = fs.readFileSync(path.resolve("backend","src","tables",file)).toString();
-    console.log(path.resolve("backend","tables",file));
+    let text = fs.readFileSync(path.resolve("src","tables",file)).toString();
 
     let textByLine = text.split("\n");
 
