@@ -11,12 +11,13 @@ const selectedStyle = {
   fontSize: '55px',
   height: '130px',
   width: '40vw',
+  paddingTop: '35px'
 }
 
 const notSelectedStyle = {
   marginTop: '100px',
   fontSize: '35px',
-  height: '60px'
+  height: '60px',
 }
 
 class SiderMenu extends React.Component {
@@ -50,7 +51,7 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="1" style={this.state.one_selected ? selectedStyle : notSelectedStyle}onClick={() => {
             this.setState({ one_selected: true, two_selected: false, three_selected: false, four_selected: false })
           }}>
-            <Icon type="user" />
+            <Icon type="user"/>
             <span className="nav-text">nav 1</span>
           </Menu.Item>
           <Menu.Item className='customclass' key="2" style={this.state.two_selected ? selectedStyle : notSelectedStyle} onClick={() => {
