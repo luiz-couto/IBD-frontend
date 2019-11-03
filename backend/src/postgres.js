@@ -19,10 +19,10 @@ async function setUpDatabase(db){
         console.log("ERROR: " + e.message);
     }
 
-    await db.query(comunication_and_information.sqlInsertCommand);
+    //await db.query(comunication_and_information.sqlInsertCommand);
 
-    const response = await db.query("SELECT * FROM comunication_and_information");
-    console.log(response.rows)
+    // const response = await db.query("SELECT * FROM comunication_and_information");
+    //console.log(response.rows)
 
 }
 
