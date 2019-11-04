@@ -1,9 +1,11 @@
 import React from 'react';
 
 import SiderMenu from '../../components/SiderMenu';
+import './styles.css';
 
 class SearchCountry extends React.Component{
     componentDidMount(){
+        
 
         fetch("http://localhost:3001/consulta", {
             headers: new Headers({
@@ -21,7 +23,9 @@ class SearchCountry extends React.Component{
     }
     render() {
         return (
+            <div className='background'>
             <SiderMenu />
+            </div>
         );
     }
 }

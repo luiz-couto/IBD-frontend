@@ -32,7 +32,7 @@ class SiderMenu extends React.Component {
   } 
   render() {
     return (
-    <Layout>
+    <Layout style={{position: 'absolute', opacity: 0.6}}>
       <Sider
         breakpoint="lg"
         collapsible={false}
