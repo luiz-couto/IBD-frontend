@@ -46,13 +46,13 @@ class SiderMenu extends React.Component {
         theme="dark"
         mode="inline"
         defaultSelectedKeys={['4']}
-        style={{ backgroundColor: 'rgba(4, 4, 102,0.4)', height: '100vh' }}
+        style={{ backgroundColor: 'rgba(255,245,236,0.5)', height: '100vh' }}
         >
           <Menu.Item className='customclass' key="1" style={this.state.one_selected ? selectedStyle : notSelectedStyle}onClick={() => {
             this.setState({ one_selected: true, two_selected: false, three_selected: false, four_selected: false })
           }}>
             <Icon type="more"/>
-            <span style={{ borderBottom: '1px solid white'}}>Province La Spezia</span><br></br>
+            <span style={{ borderBottom: '1px solid white'}}>Search for Country</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="2" style={this.state.two_selected ? selectedStyle : notSelectedStyle} onClick={() => {
             this.setState({ one_selected: false, two_selected: true, three_selected: false, four_selected: false })

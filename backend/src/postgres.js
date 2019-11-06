@@ -15,11 +15,11 @@ async function setUpDatabase(db){
     //https://www.robinwieruch.de/postgres-sql-macos-setup
     try {
         await db.query(comunication_and_information.sqlCreateCommand);
+        await db.query(comunication_and_information.sqlInsertCommand);
     } catch(e) {
-        console.log("ERROR: " + e.message);
+        console.log(e.message);
     }
 
-    //await db.query(comunication_and_information.sqlInsertCommand);
 
     // const response = await db.query("SELECT * FROM comunication_and_information");
     //console.log(response.rows)
