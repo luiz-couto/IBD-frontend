@@ -5,20 +5,22 @@ import './styles.css';
 
 import analyze from 'rgbaster';
 
-async function getColor() {
-    const result = await analyze(require("../../imgs/italy.jpg"), { ignore: [ 'rgb(255,255,255)', 'rgb(0,0,0)' ] });
-    console.log(result[0].color);
-}
-
 class SearchCountry extends React.Component{
-    componentDidMount(){
+    constructor(props) {
+        super(props);
+        this.state = {
+            color: 'rgb(0,0,0)',
+            loading: true
+        };
+    } 
 
+
+    componentDidMount(){
         try {
-            getColor();
+            this.getColor();
         } catch(e){
             console.log(e);
         }
-        
 
         fetch("http://localhost:3001/consulta", {
             headers: new Headers({
@@ -34,11 +36,22 @@ class SearchCountry extends React.Component{
             });
         });
     }
+
+    async getColor() {
+        const result = await analyze(require("../../imgs/italy.jpg"), { ignore: [ 'rgb(255,255,255)', 'rgb(0,0,0)' ] });
+        this.setState({ color: result[0].color, loading: false })
+    }
+
     render() {
+        let { loading, color } = this.state;
+
         return (
+            loading ? 
+            <span>loading</span>
+            :
             <div className='background'>
-            <SiderMenu />
-            </div>
+                <SiderMenu color={color}/>
+            </div> 
         );
     }
 }

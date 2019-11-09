@@ -1,4 +1,0 @@
-.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
-    background-color:rgba(255,245,236,0.55); /*Overriden property*/
-    background-image: linear-gradient(to right, rgba(255,245,236,0.35), rgba(255,245,236,0.1));
-}

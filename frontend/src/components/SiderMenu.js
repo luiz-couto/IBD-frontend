@@ -12,6 +12,8 @@ const selectedStyle = {
   height: '160px',
   width: '47vw',
   paddingTop: '45px',
+  backgroundColor:'rgba(255,245,236,0.55)',
+  backgroundImage: "linear-gradient('to right', 'rgba(255,245,236,0.35)', 'rgba(255,245,236,0.1))'",
 }
 
 const notSelectedStyle = {
@@ -29,6 +31,7 @@ class SiderMenu extends React.Component {
         three_selected: false,
         four_selected: false
     };
+    console.log(this.props.color);
   } 
   render() {
     return (
@@ -48,7 +51,7 @@ class SiderMenu extends React.Component {
         defaultSelectedKeys={['4']}
         style={{ backgroundColor: 'rgba(255,245,236,0.5)', height: '100vh' }}
         >
-          <Menu.Item className='customclass' key="1" style={this.state.one_selected ? selectedStyle : notSelectedStyle}onClick={() => {
+          <Menu.Item className='customclass' key="1" style={this.state.one_selected ? selectedStyle : notSelectedStyle} onClick={() => {
             this.setState({ one_selected: true, two_selected: false, three_selected: false, four_selected: false })
           }}>
             <Icon type="more"/>
