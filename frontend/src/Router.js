@@ -3,9 +3,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 import SearchCountry from './pages/SearchCountry';
+import Innovation from './pages/Innovation';
+
 
 const privateRoutes = [
-    { path: '/', component: SearchCountry},
+    { path: '/search', component: SearchCountry},
+    { path: '/innovation', component: Innovation},
 ]
 
 const Routes = () => {

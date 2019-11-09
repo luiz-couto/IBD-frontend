@@ -46,7 +46,7 @@ async function setUpDatabase(db){
         console.log(e.message);
     }
 
-    db.query("SELECT * FROM IMAGES").then(data => console.log(data))
+    db.query("SELECT * FROM IMAGES").then(data => console.log("pimba"))
 
 }
 
