@@ -18,8 +18,6 @@ class SearchCountry extends React.Component{
         } catch(e){
             console.log(e);
         }
-        
-
         fetch("http://localhost:3001/consulta", {
             headers: new Headers({
                 'Accept': 'application/json',
