@@ -14,6 +14,7 @@ async function setUpDatabase(db){
     const comunication_and_information = require("./tables/comunication_and_information");
     const demographic_and_socio_economic = require("./tables/demographic_and_socio_economic");
     const innovation = require("./tables/innovation");
+    const images = require("./tables/images");
 
     //https://www.robinwieruch.de/postgres-sql-macos-setup
 
@@ -38,8 +39,14 @@ async function setUpDatabase(db){
         console.log(e.message);
     }
 
-    // const response = await db.query("SELECT * FROM comunication_and_information");
-    //console.log(response.rows)
+    try {
+        await db.query(images.sqlCreateCommand);
+        await db.query(images.sqlInsertCommand);
+    } catch(e) {
+        console.log(e.message);
+    }
+
+    db.query("SELECT * FROM IMAGES").then(data => console.log(data))
 
 }
 
