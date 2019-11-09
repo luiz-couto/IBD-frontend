@@ -20,7 +20,7 @@ module.exports = convertCSVToSQL("comunication_and_information", "./comunication
         datatype: "TEXT",
     },
     "Value": {
-        datatype: "TEXT",
+        datatype: "NUMERIC",
     },
     "Flag Codes": {
         datatype: "TEXT",
