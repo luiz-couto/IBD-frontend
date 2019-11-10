@@ -15,7 +15,7 @@ const italyImage = new Buffer(italyBuffer).toString("base64");
 
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
-VALUES ('brazil', '${brazilImage}'), ('italy', '${italyImage}');`;
+VALUES ('Brazil', '${brazilImage}'), ('Italy', '${italyImage}');`;
 
 module.exports = {
     sqlCreateCommand,

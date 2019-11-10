@@ -19,19 +19,33 @@ class SearchCountry extends React.Component{
             color: 'rgb(0,0,0)',
             loading: true,
             countryImage: "",
+            countryList: [],
+            selectedCountry: 'Brazil'
         };
     }
 
 
     componentDidMount(){
         // Request image from DB
-        query(`SELECT data FROM IMAGES WHERE country='brazil'`).then((data) => {
+        query(`SELECT data FROM IMAGES WHERE country='Brazil'`).then((data) => {
             if (data) {
                 this.setState({
                     countryImage: data.rows[0].data,
                 })
             }
         });
+
+        let countryList = [];
+        
+        query(`SELECT country FROM IMAGES`).then((data) => {
+            if (data) {
+                data.rows.map((row) => {
+                    countryList.push(row.country);
+                })
+                this.setState({ countryList: countryList })
+            }
+        });
+
     }
 
     async getColor() {
@@ -43,7 +57,7 @@ class SearchCountry extends React.Component{
     render() {
         let { loading, color } = this.state;
         let countryImageData = "data:image/jpeg;base64," + this.state.countryImage;
-        if (this.state.countryImage != '' && loading == true) {
+        if (this.state.countryImage != '' && this.state.countryList != [] && loading == true) {
             try {
                 this.getColor();
             } catch(e){
@@ -64,11 +78,15 @@ class SearchCountry extends React.Component{
                         <Col className='container'>
                             <Text className='title'>Brazil</Text>
                             <AutoComplete
+                                dataSource={this.state.countryList}
                                 className='autoComplete'
                                 dropdownClassName="certain-category-search-dropdown"
                                 onSelect={()=>{}}
                                 onSearch={() => {}}
                                 size='large'
+                                filterOption={(inputValue, option) =>
+                                    option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+                                }
                             >
                             <Input suffix={<Icon type="search" style={{ marginRight: 20, fontSize: 20 }}/>} />
                             </AutoComplete>
