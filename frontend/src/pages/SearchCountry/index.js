@@ -4,8 +4,11 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
+import { AutoComplete, Layout } from 'antd';
 
 import { query } from "../../utils/database/query";
+
+const { Header, Sider, Content } = Layout;
 
 class SearchCountry extends React.Component{
     constructor(props) {
@@ -49,11 +52,23 @@ class SearchCountry extends React.Component{
             loading ? 
             <span>loading</span>
             :
-            <div className='background' >
-                <SiderMenu color={color}/>
-                <img src={countryImageData} style={{ width: '100vw',
+            <div>
+                <img src={countryImageData} style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
-            </div> 
+                <Layout>
+                    <SiderMenu color={color}/>
+                    <Layout>
+                        <Content>
+                        <AutoComplete
+                            style={{ width: 200 }}
+                            onSelect={()=>{}}
+                            onSearch={() => {}}
+                            placeholder="input here"
+                        />
+                    </Content>
+                    </Layout>
+                </Layout>
+            </div>
         );
     }
 }

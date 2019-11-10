@@ -44,7 +44,6 @@ class SiderMenu extends React.Component {
   } 
   render() {
     return (
-    <Layout style={{position: 'absolute', opacity: 0.6}}>
       <Sider
         breakpoint="lg"
         collapsible={false}
@@ -52,6 +51,7 @@ class SiderMenu extends React.Component {
           console.log(broken);
         }}
         width='22vw'
+        style={{ opacity: 0.6 }}
       >
         <div className="logo" />
         <Menu 
@@ -86,7 +86,6 @@ class SiderMenu extends React.Component {
           </Menu.Item>
         </Menu>
       </Sider>
-    </Layout>
     );
   }
 }
