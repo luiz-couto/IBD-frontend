@@ -4,13 +4,6 @@
     background-size: cover;
 }
 
-.autoComplete {
-    width: 40vw;
-    float: right;
-    top: 65vh;
-    margin-right: 8vw;
-}
-
 .ant-select-auto-complete.ant-select .ant-input {
     height: 70px;
     /* background-color: white; */
@@ -28,4 +21,23 @@
     background-color: white;
     border-radius: 40px;
     height: 70px;
+}
+
+.container {
+    float: right;
+    top: 30vh;
+    margin-right: 8vw;
+}
+
+.title {
+    font-size: 180px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30vw;
+}
+
+.autoComplete {
+    width: 40vw;
+    float: right;
+    margin-top: 8vh;
 }

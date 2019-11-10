@@ -4,9 +4,10 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout, Input, Icon, Typography } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography, Col } from 'antd';
 
 import { query } from "../../utils/database/query";
+import { relative } from 'path';
 
 const { Content } = Layout;
 const { Text } = Typography;
@@ -55,20 +56,23 @@ class SearchCountry extends React.Component{
             :
             <div>
                 <img src={countryImageData} style={{ width: '100vw', position:'absolute',
-                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover', zIndex: 0 }} />
+                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
                 <Layout>
                     <SiderMenu color={color}/>
                     <Layout>
                         <Content>
-                        <AutoComplete
-                            className='autoComplete'
-                            dropdownClassName="certain-category-search-dropdown"
-                            onSelect={()=>{}}
-                            onSearch={() => {}}
-                            size='large'
-                        >
-                        <Input suffix={<Icon type="search" style={{ marginRight: 20, fontSize: 20 }}/>} />
-                        </AutoComplete>
+                        <Col className='container'>
+                            <Text className='title'>Brazil</Text>
+                            <AutoComplete
+                                className='autoComplete'
+                                dropdownClassName="certain-category-search-dropdown"
+                                onSelect={()=>{}}
+                                onSearch={() => {}}
+                                size='large'
+                            >
+                            <Input suffix={<Icon type="search" style={{ marginRight: 20, fontSize: 20 }}/>} />
+                            </AutoComplete>
+                        </Col>
                     </Content>
                     </Layout>
                 </Layout>
