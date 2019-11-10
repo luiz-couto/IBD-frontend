@@ -25,9 +25,24 @@ class SearchCountry extends React.Component{
     }
 
 
+    searchCountry(countryName) {
+        let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
+        query(sql).then((data) => {
+            if (data) {
+                this.setState({
+                    loading: true,
+                    selectedCountry: countryName,
+                    countryImage: data.rows[0].data,
+                })
+            }
+        });
+    }
+
     componentDidMount(){
         // Request image from DB
-        query(`SELECT data FROM IMAGES WHERE country='Brazil'`).then((data) => {
+        let sql = `SELECT data FROM IMAGES WHERE country='` + this.state.selectedCountry + `'`;
+        console.log(sql);
+        query(sql).then((data) => {
             if (data) {
                 this.setState({
                     countryImage: data.rows[0].data,
@@ -76,12 +91,12 @@ class SearchCountry extends React.Component{
                     <Layout>
                         <Content>
                         <Col className='container'>
-                            <Text className='title'>Brazil</Text>
+                            <Text className='title'>{this.state.selectedCountry}</Text>
                             <AutoComplete
                                 dataSource={this.state.countryList}
                                 className='autoComplete'
                                 dropdownClassName="certain-category-search-dropdown"
-                                onSelect={()=>{}}
+                                onSelect={(countryName) => {this.searchCountry(countryName)}}
                                 onSearch={() => {}}
                                 size='large'
                                 filterOption={(inputValue, option) =>
