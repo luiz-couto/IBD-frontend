@@ -46,8 +46,6 @@ async function setUpDatabase(db){
         console.log(e.message);
     }
 
-    db.query("SELECT * FROM IMAGES").then(data => console.log(data))
-
 }
 
 module.exports = {

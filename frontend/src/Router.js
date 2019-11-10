@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import SearchCountry from './pages/SearchCountry';
+import CommunicationAndInformation from './pages/Communication_and_Information';
 
 const privateRoutes = [
-    { path: '/', component: SearchCountry},
+    { path: '/search', component: SearchCountry},
+    { path: '/communication_and_information', component: CommunicationAndInformation},
+
 ]
 
 const Routes = () => {
