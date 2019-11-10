@@ -3,3 +3,29 @@
     height: 100vh;
     background-size: cover;
 }
+
+.autoComplete {
+    width: 40vw;
+    float: right;
+    top: 65vh;
+    margin-right: 8vw;
+}
+
+.ant-select-auto-complete.ant-select .ant-input {
+    height: 70px;
+    /* background-color: white; */
+    font-size: 27px;
+    border: 1px solid lightslategray;
+    border-radius: 40px;
+}
+
+.ant-select-auto-complete {
+    background-color: white;
+    border-radius: 40px;
+}
+
+.ant-select-auto-complete.ant-select .ant-select-selection {
+    background-color: white;
+    border-radius: 40px;
+    height: 70px;
+}

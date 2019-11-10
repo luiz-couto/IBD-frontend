@@ -13,7 +13,7 @@ class SiderMenu extends React.Component {
         one_selected: false,
         two_selected: false,
         three_selected: false,
-        four_selected: false
+        four_selected: true
     };
     console.log(this.props.color);
 

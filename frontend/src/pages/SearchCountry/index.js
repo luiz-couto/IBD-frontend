@@ -4,11 +4,12 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography } from 'antd';
 
 import { query } from "../../utils/database/query";
 
-const { Header, Sider, Content } = Layout;
+const { Content } = Layout;
+const { Text } = Typography;
 
 class SearchCountry extends React.Component{
     constructor(props) {
@@ -54,17 +55,20 @@ class SearchCountry extends React.Component{
             :
             <div>
                 <img src={countryImageData} style={{ width: '100vw', position:'absolute',
-                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
+                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover', zIndex: 0 }} />
                 <Layout>
                     <SiderMenu color={color}/>
                     <Layout>
                         <Content>
                         <AutoComplete
-                            style={{ width: 200 }}
+                            className='autoComplete'
+                            dropdownClassName="certain-category-search-dropdown"
                             onSelect={()=>{}}
                             onSearch={() => {}}
-                            placeholder="input here"
-                        />
+                            size='large'
+                        >
+                        <Input suffix={<Icon type="search" style={{ marginRight: 20, fontSize: 20 }}/>} />
+                        </AutoComplete>
                     </Content>
                     </Layout>
                 </Layout>
