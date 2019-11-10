@@ -4,7 +4,7 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout, Input, Icon, Typography, Col } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin } from 'antd';
 
 import { query } from "../../utils/database/query";
 import { relative } from 'path';
@@ -41,7 +41,6 @@ class SearchCountry extends React.Component{
     componentDidMount(){
         // Request image from DB
         let sql = `SELECT data FROM IMAGES WHERE country='` + this.state.selectedCountry + `'`;
-        console.log(sql);
         query(sql).then((data) => {
             if (data) {
                 this.setState({
@@ -81,7 +80,7 @@ class SearchCountry extends React.Component{
         }
         return (
             loading ? 
-            <span>loading</span>
+            <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
             :
             <div>
                 <img src={countryImageData} style={{ width: '100vw', position:'absolute',
@@ -96,7 +95,8 @@ class SearchCountry extends React.Component{
                                 dataSource={this.state.countryList}
                                 className='autoComplete'
                                 dropdownClassName="certain-category-search-dropdown"
-                                onSelect={(countryName) => {this.searchCountry(countryName)}}
+                                onSelect={(countryName) => {
+                                    this.searchCountry(countryName)}}
                                 onSearch={() => {}}
                                 size='large'
                                 filterOption={(inputValue, option) =>
