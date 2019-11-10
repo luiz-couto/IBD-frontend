@@ -9,10 +9,13 @@ let sqlCreateCommand = `CREATE TABLE IMAGES(
 
 const brazilBuffer = fs.readFileSync(path.resolve(".","src","tables","images","brazil.jpg"));
 const brazilImage = new Buffer(brazilBuffer).toString("base64");
+
+const italyBuffer = fs.readFileSync(path.resolve(".","src","tables","images","italy.jpg"));
+const italyImage = new Buffer(italyBuffer).toString("base64");
+
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
-VALUES ('Brazil', '${brazilImage}');`;
-
+VALUES ('brazil', '${brazilImage}'), ('italy', '${italyImage}');`;
 
 module.exports = {
     sqlCreateCommand,

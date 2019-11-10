@@ -15,12 +15,12 @@ class SearchCountry extends React.Component{
             loading: true,
             countryImage: "",
         };
-    } 
+    }
 
 
     componentDidMount(){
         // Request image from DB
-        query(`SELECT data FROM IMAGES WHERE country='Brazil'`).then((data) => {
+        query(`SELECT data FROM IMAGES WHERE country='brazil'`).then((data) => {
             if (data) {
                 this.setState({
                     countryImage: data.rows[0].data,
@@ -50,8 +50,6 @@ class SearchCountry extends React.Component{
             <span>loading</span>
             :
             <div className='background' >
-
-                {/* IMAGEM BAIXADA DO DB */}
                 <SiderMenu color={color}/>
                 <img src={countryImageData} style={{ width: '100vw',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
