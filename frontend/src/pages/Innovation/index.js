@@ -5,7 +5,7 @@ class Innovation extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            aux : 'Revelacao',
+            aux : 'Revelacoes',
         };
     }
 
