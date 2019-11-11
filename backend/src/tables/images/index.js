@@ -37,6 +37,44 @@ const belgiumImage = new Buffer(belgiumBuffer).toString("base64");
 const canadaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","canada.jpg"));
 const canadaImage = new Buffer(canadaBuffer).toString("base64");
 
+const south_africaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","south_africa.jpg"));
+const south_africaImage = new Buffer(south_africaBuffer).toString("base64");
+
+const portugalBuffer = fs.readFileSync(path.resolve(".","src","tables","images","portugal.jpg"));
+const portugalImage = new Buffer(portugalBuffer).toString("base64");
+
+const spainBuffer = fs.readFileSync(path.resolve(".","src","tables","images","spain.jpg"));
+const spainImage = new Buffer(spainBuffer).toString("base64");
+
+const greeceBuffer = fs.readFileSync(path.resolve(".","src","tables","images","greece.jpg"));
+const greeceImage = new Buffer(greeceBuffer).toString("base64");
+
+const mexicoBuffer = fs.readFileSync(path.resolve(".","src","tables","images","mexico.jpg"));
+const mexicoImage = new Buffer(mexicoBuffer).toString("base64");
+
+const finlandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","finland.jpg"));
+const finlandImage = new Buffer(finlandBuffer).toString("base64");
+
+const netherlandsBuffer = fs.readFileSync(path.resolve(".","src","tables","images","netherlands.jpg"));
+const netherlandsImage = new Buffer(netherlandsBuffer).toString("base64");
+
+const irelandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","ireland.jpg"));
+const irelandImage = new Buffer(irelandBuffer).toString("base64");
+
+const swedenBuffer = fs.readFileSync(path.resolve(".","src","tables","images","sweden.jpg"));
+const swedenImage = new Buffer(swedenBuffer).toString("base64");
+
+const denmarkBuffer = fs.readFileSync(path.resolve(".","src","tables","images","denmark.jpg"));
+const denmarkImage = new Buffer(denmarkBuffer).toString("base64");
+
+const switzerlandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","switzerland.jpg"));
+const switzerlandImage = new Buffer(switzerlandBuffer).toString("base64");
+
+const norwayBuffer = fs.readFileSync(path.resolve(".","src","tables","images","norway.jpg"));
+const norwayImage = new Buffer(norwayBuffer).toString("base64");
+
+const bulgariaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","bulgaria.jpg"));
+const bulgariaImage = new Buffer(bulgariaBuffer).toString("base64");
 
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
@@ -50,7 +88,20 @@ VALUES
 ('China', '${chinaImage}'),
 ('India', '${indiaImage}'),
 ('Belgium', '${belgiumImage}'),
-('Canada', '${canadaImage}')
+('Canada', '${canadaImage}'),
+('South Africa', '${south_africaImage}'),
+('Portugal', '${portugalImage}'),
+('Spain', '${spainImage}'),
+('Greece', '${greeceImage}'),
+('Mexico', '${mexicoImage}'),
+('Finland', '${finlandImage}'),
+('Netherlands', '${netherlandsImage}'),
+('Ireland', '${irelandImage}'),
+('Sweden', '${swedenImage}'),
+('Denmark', '${denmarkImage}'),
+('Switzerland', '${switzerlandImage}'),
+('Norway', '${norwayImage}'),
+('Bulgaria', '${bulgariaImage}')
 ;`;
 
 module.exports = {
