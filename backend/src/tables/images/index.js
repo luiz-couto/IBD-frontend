@@ -133,6 +133,30 @@ const israelImage = new Buffer(israelBuffer).toString("base64");
 const ugandaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","uganda.jpg"));
 const ugandaImage = new Buffer(ugandaBuffer).toString("base64");
 
+const egyptBuffer = fs.readFileSync(path.resolve(".","src","tables","images","egypt.jpg"));
+const egyptImage = new Buffer(egyptBuffer).toString("base64");
+
+const saudi_arabiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","saudi_arabia.jpg"));
+const saudi_arabiaImage = new Buffer(saudi_arabiaBuffer).toString("base64");
+
+const qatarBuffer = fs.readFileSync(path.resolve(".","src","tables","images","qatar.jpg"));
+const qatarImage = new Buffer(qatarBuffer).toString("base64");
+
+const ukraineBuffer = fs.readFileSync(path.resolve(".","src","tables","images","ukraine.jpg"));
+const ukraineImage = new Buffer(ukraineBuffer).toString("base64");
+
+const uruguayBuffer = fs.readFileSync(path.resolve(".","src","tables","images","uruguay.jpg"));
+const uruguayImage = new Buffer(uruguayBuffer).toString("base64");
+
+const ecuadorBuffer = fs.readFileSync(path.resolve(".","src","tables","images","ecuador.jpg"));
+const ecuadorImage = new Buffer(ecuadorBuffer).toString("base64");
+
+const guatemalaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","guatemala.jpg"));
+const guatemalaImage = new Buffer(guatemalaBuffer).toString("base64");
+
+const croatiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","croatia.jpg"));
+const croatiaImage = new Buffer(croatiaBuffer).toString("base64");
+
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
 VALUES 
@@ -177,7 +201,15 @@ VALUES
 ('Iceland', '${icelandImage}'),
 ('Russia', '${russiaImage}'),
 ('Israel', '${israelImage}'),
-('Uganda', '${ugandaImage}')
+('Uganda', '${ugandaImage}'),
+('Egypt', '${egyptImage}'),
+('Saudi Arabia', '${saudi_arabiaImage}'),
+('Qatar', '${qatarImage}'),
+('Ukraine', '${ukraineImage}'),
+('Uruguay', '${uruguayImage}'),
+('Ecuador', '${ecuadorImage}'),
+('Guatemala', '${guatemalaImage}'),
+('Croatia', '${croatiaImage}')
 ;`;
 
 module.exports = {
