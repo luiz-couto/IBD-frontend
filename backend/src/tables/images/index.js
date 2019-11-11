@@ -106,6 +106,33 @@ const moldovaImage = new Buffer(moldovaBuffer).toString("base64");
 const slovakiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","slovakia.jpg"));
 const slovakiaImage = new Buffer(slovakiaBuffer).toString("base64");
 
+const chileBuffer = fs.readFileSync(path.resolve(".","src","tables","images","chile.jpg"));
+const chileImage = new Buffer(chileBuffer).toString("base64");
+
+const argentinaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","argentina.jpg"));
+const argentinaImage = new Buffer(argentinaBuffer).toString("base64");
+
+const colombiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","colombia.jpg"));
+const colombiaImage = new Buffer(colombiaBuffer).toString("base64");
+
+const peruBuffer = fs.readFileSync(path.resolve(".","src","tables","images","peru.jpg"));
+const peruImage = new Buffer(peruBuffer).toString("base64");
+
+const polandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","poland.jpg"));
+const polandImage = new Buffer(polandBuffer).toString("base64");
+
+const icelandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","iceland.jpg"));
+const icelandImage = new Buffer(icelandBuffer).toString("base64");
+
+const russiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","russia.jpg"));
+const russiaImage = new Buffer(russiaBuffer).toString("base64");
+
+const israelBuffer = fs.readFileSync(path.resolve(".","src","tables","images","israel.jpg"));
+const israelImage = new Buffer(israelBuffer).toString("base64");
+
+const ugandaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","uganda.jpg"));
+const ugandaImage = new Buffer(ugandaBuffer).toString("base64");
+
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
 VALUES 
@@ -133,7 +160,7 @@ VALUES
 ('Norway', '${norwayImage}'),
 ('Bulgaria', '${bulgariaImage}'),
 ('Estonia', '${estoniaImage}'),
-('United Kingdom', '${united_kingdomImage}'),
+('Un. Kingdom', '${united_kingdomImage}'),
 ('Luxembourg', '${luxembourgImage}'),
 ('New Zealand', '${new_zealandImage}'),
 ('Austria', '${austriaImage}'),
@@ -141,7 +168,16 @@ VALUES
 ('Singapore', '${singaporeImage}'),
 ('South Korea', '${south_koreaImage}'),
 ('Moldova', '${moldovaImage}'),
-('Slovakia', '${slovakiaImage}')
+('Slovakia', '${slovakiaImage}'),
+('Chile', '${chileImage}'),
+('Argentina', '${argentinaImage}'),
+('Colombia', '${colombiaImage}'),
+('Peru', '${peruImage}'),
+('Poland', '${polandImage}'),
+('Iceland', '${icelandImage}'),
+('Russia', '${russiaImage}'),
+('Israel', '${israelImage}'),
+('Uganda', '${ugandaImage}')
 ;`;
 
 module.exports = {
