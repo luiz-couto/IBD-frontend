@@ -76,6 +76,36 @@ const norwayImage = new Buffer(norwayBuffer).toString("base64");
 const bulgariaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","bulgaria.jpg"));
 const bulgariaImage = new Buffer(bulgariaBuffer).toString("base64");
 
+const estoniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","estonia.jpg"));
+const estoniaImage = new Buffer(estoniaBuffer).toString("base64");
+
+const united_kingdomBuffer = fs.readFileSync(path.resolve(".","src","tables","images","united_kingdom.jpg"));
+const united_kingdomImage = new Buffer(united_kingdomBuffer).toString("base64");
+
+const luxembourgBuffer = fs.readFileSync(path.resolve(".","src","tables","images","luxembourg.jpg"));
+const luxembourgImage = new Buffer(luxembourgBuffer).toString("base64");
+
+const new_zealandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","new_zealand.jpg"));
+const new_zealandImage = new Buffer(new_zealandBuffer).toString("base64");
+
+const austriaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","austria.jpg"));
+const austriaImage = new Buffer(austriaBuffer).toString("base64");
+
+const australiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","australia.jpg"));
+const australiaImage = new Buffer(australiaBuffer).toString("base64");
+
+const singaporeBuffer = fs.readFileSync(path.resolve(".","src","tables","images","singapore.jpg"));
+const singaporeImage = new Buffer(singaporeBuffer).toString("base64");
+
+const south_koreaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","south_korea.jpg"));
+const south_koreaImage = new Buffer(south_koreaBuffer).toString("base64");
+
+const moldovaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","moldova.jpg"));
+const moldovaImage = new Buffer(moldovaBuffer).toString("base64");
+
+const slovakiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","slovakia.jpg"));
+const slovakiaImage = new Buffer(slovakiaBuffer).toString("base64");
+
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
 VALUES 
@@ -101,7 +131,17 @@ VALUES
 ('Denmark', '${denmarkImage}'),
 ('Switzerland', '${switzerlandImage}'),
 ('Norway', '${norwayImage}'),
-('Bulgaria', '${bulgariaImage}')
+('Bulgaria', '${bulgariaImage}'),
+('Estonia', '${estoniaImage}'),
+('United Kingdom', '${united_kingdomImage}'),
+('Luxembourg', '${luxembourgImage}'),
+('New Zealand', '${new_zealandImage}'),
+('Austria', '${austriaImage}'),
+('Australia', '${australiaImage}'),
+('Singapore', '${singaporeImage}'),
+('South Korea', '${south_koreaImage}'),
+('Moldova', '${moldovaImage}'),
+('Slovakia', '${slovakiaImage}')
 ;`;
 
 module.exports = {
