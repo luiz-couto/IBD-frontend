@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { query } from "../../utils/database/query";
 import PointGraph from "../../components/PointGraph";
-import BarGraph from "../../components/BarGraph";
+import LineSeries from "../../components/LineGraph";
 
 import 'react-vis/dist/style.css';
 
@@ -53,6 +53,8 @@ const CommunicationAndInformation = () => {
             </select>
             <div style={{marginBottom: "40px"}}/>
             <PointGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
+            <LineSeries fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
+
             {/* <BarGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
 
         </div>

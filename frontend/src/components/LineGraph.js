@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {XYPlot, MarkSeries, LabelSeries, YAxis, XAxis, VerticalGridLines, HorizontalGridLines} from 'react-vis';
+import {XYPlot, LineSeries, LabelSeries, YAxis, XAxis, VerticalGridLines, HorizontalGridLines} from 'react-vis';
 import { Slider } from 'antd';
 import 'react-vis/dist/style.css';
 
@@ -139,11 +139,11 @@ const PointGraph = ({countrys, fetchedData, loadingData}) => {
                     xDomain={Xdomain}
                 />
 
-                <MarkSeries 
+                <LineSeries 
                     yDomain={Ydomain}
                     xDomain={Xdomain}
                     animation={MODE}
-                    data={valuesCountrys}
+                    data={valuesCountrys.map(c => c.label==="France")}
                     onValueMouseOver={(d) => {
                         setSelectedCountry(d.label);
                         setSelectedCountryValue(d.y);
@@ -160,7 +160,7 @@ const PointGraph = ({countrys, fetchedData, loadingData}) => {
                         }
                     } 
                     animation={true}
-                    data={valuesCountrys} 
+                    data={valuesCountrys.map(c => c.label==="France")}
                 />
     
                 <YAxis yDomain={Ydomain}/>
