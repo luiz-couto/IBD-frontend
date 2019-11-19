@@ -10,7 +10,6 @@ import 'react-vis/dist/style.css';
 const CommunicationAndInformation = () => {
     const [indicators, setIndicators] = useState([]);
     const [countrys, setCountrys] = useState([]);
-
     const [selectedIndicator, setSelectedIndicator] = useState("");
     const [loadingData, setLoadingData] = useState(true);
     const [fetchedData, setFetchedData] = useState([]);
