@@ -70,19 +70,19 @@ class SiderMenu extends React.Component {
             this.setState({ one_selected: false, two_selected: true, three_selected: false, four_selected: false })
           }}>
             <Icon type="more" />
-            <span style={{ borderBottom: '1px solid white'}}>Nullam auctor</span><br></br>
+            <span style={{ borderBottom: '1px solid white'}}>Socio - Economics</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="3" style={this.state.three_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: true, four_selected: false })
           }}>
             <Icon type="more" />
-            <span style={{ borderBottom: '1px solid white'}}>Vivamos sed tellus eget</span><br></br>
+            <span style={{ borderBottom: '1px solid white'}}>Comunication</span><br></br>
           </Menu.Item>
           <Menu.Item className='customclass' key="4" style={this.state.four_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: false, four_selected: true })
           }}>
             <Icon type="more" />
-            <span style={{ borderBottom: '1px solid white'}}>Curae nam ullamoorper ut mi</span><br></br>
+            <span style={{ borderBottom: '1px solid white'}}>Innovation</span><br></br>
           </Menu.Item>
         </Menu>
       </Sider>
