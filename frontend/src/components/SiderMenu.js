@@ -10,13 +10,29 @@ const { Sider } = Layout;
 class SiderMenu extends React.Component {
   constructor(props) {
     super(props);
+
+    this.selectedItem = this.props.selectedItem;
+    console.log(this.selectedItem);
+    let one, two, three, four = false;
+    if (this.selectedItem[0] == "1"){
+      one = true;
+    }
+    if (this.selectedItem[0] == "2"){
+      two = true;
+    }
+    if (this.selectedItem[0] == "3"){
+      three = true;
+    }
+    if (this.selectedItem[0] == "4"){
+      four = true;
+    }
+    
     this.state = {
-        one_selected: false,
-        two_selected: false,
-        three_selected: false,
-        four_selected: true
+      one_selected: one,
+      two_selected: two,
+      three_selected: three,
+      four_selected: four
     };
-    console.log(this.props.color);
 
     let color = this.props.color.slice(4);
     color = color.split(',');
@@ -24,7 +40,6 @@ class SiderMenu extends React.Component {
     this.g = color[1];
     this.b = color[2];
     this.b = this.b.substring(0,this.b.length - 1);
-    console.log(this.r,this.g,this.b);
 
     this.selectedStyle = {
       marginTop: '100px',
@@ -58,7 +73,7 @@ class SiderMenu extends React.Component {
         <Menu 
         theme="dark"
         mode="inline"
-        defaultSelectedKeys={['4']}
+        defaultSelectedKeys={this.selectedItem}
         style={{ backgroundColor: 'rgba(' + this.r + ',' + this.g + ',' + this.b + ',0.55)', height: '100vh' }}
         >
           <Menu.Item className='customclass' key="1" style={this.state.one_selected ? this.selectedStyle : this.notSelectedStyle} onClick={() => {

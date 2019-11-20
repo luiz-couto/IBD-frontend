@@ -98,7 +98,7 @@ class SearchCountry extends React.Component{
                 <img src={countryImageData} style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
                 <Layout>
-                    <SiderMenu color={color}/>
+                    <SiderMenu color={color} selectedItem={["1"]}/>
                     <Layout>
                         <Content>
                             <div style={{ width: '10vw', float: 'right', marginTop: '4vh', height: '10vh' }}>
