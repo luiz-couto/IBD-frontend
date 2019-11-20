@@ -25,7 +25,6 @@ class SearchCountry extends React.Component{
         };
     }
 
-
     searchCountry(countryName) {
         let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
         query(sql).then((data) => {
@@ -60,7 +59,6 @@ class SearchCountry extends React.Component{
                 this.setState({ countryList: countryList })
             }
         });
-
     }
 
     async getColor() {
@@ -78,6 +76,8 @@ class SearchCountry extends React.Component{
 
     render() {
         let { loading, color } = this.state;
+
+
         let countryImageData = "data:image/jpeg;base64," + this.state.countryImage;
         if (this.state.countryImage != '' && this.state.countryList != [] && loading == true) {
             try {
@@ -86,10 +86,14 @@ class SearchCountry extends React.Component{
                 console.log(e);
             }
         }
+
         return (
             loading ? 
             <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
             :
+
+            
+
             <div>
                 <img src={countryImageData} style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
