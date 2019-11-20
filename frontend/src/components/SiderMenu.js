@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
+import { Link } from 'react-router-dom';
 import "antd/dist/antd.css";
 
 import './styles.css';
@@ -63,8 +64,10 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="1" style={this.state.one_selected ? this.selectedStyle : this.notSelectedStyle} onClick={() => {
             this.setState({ one_selected: true, two_selected: false, three_selected: false, four_selected: false })
           }}>
-            <Icon type="more"/>
-            <span style={{ borderBottom: '1px solid white'}}>Search for Country</span><br></br>
+            <Link to={"/search"}>
+              <Icon type="more"/>
+              <span style={{ borderBottom: '1px solid white'}}>Search for Country</span><br></br>
+            </Link>
           </Menu.Item>
           <Menu.Item className='customclass' key="2" style={this.state.two_selected ? this.selectedStyle : this.notSelectedStyle} onClick={() => {
             this.setState({ one_selected: false, two_selected: true, three_selected: false, four_selected: false })
@@ -75,8 +78,10 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="3" style={this.state.three_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: true, four_selected: false })
           }}>
+            <Link to={"/communication_and_information"}>
             <Icon type="more" />
             <span style={{ borderBottom: '1px solid white'}}>Comunication</span><br></br>
+            </Link>
           </Menu.Item>
           <Menu.Item className='customclass' key="4" style={this.state.four_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: false, four_selected: true })
