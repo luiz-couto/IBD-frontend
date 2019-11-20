@@ -1,7 +1,44 @@
 .background {
     width: 100vw;
     height: 100vh;
-    background-image: url('../../imgs/italy.jpg');
     background-size: cover;
+}
 
+.ant-select-auto-complete.ant-select .ant-input {
+    height: 70px;
+    /* background-color: white; */
+    font-size: 27px;
+    border: 1px solid lightslategray;
+    border-radius: 40px;
+}
+
+.ant-select-auto-complete {
+    background-color: white;
+    border-radius: 40px;
+}
+
+.ant-select-auto-complete.ant-select .ant-select-selection {
+    background-color: white;
+    border-radius: 40px;
+    height: 70px;
+}
+
+.container {
+    float: right;
+    top: 30vh;
+    margin-right: 0vw;
+}
+
+.title {
+    font-size: 180px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30vw;
+    display: table-row;
+}
+
+.autoComplete {
+    width: 40vw;
+    float: right;
+    margin-top: 8vh;
 }
