@@ -2,9 +2,10 @@ import React, {useState, useEffect} from 'react';
 import { query } from "../../utils/database/query";
 import PointGraph from "../../components/PointGraph";
 import LineSeries from "../../components/LineGraph";
+import MarkSeriesGraph from '../../components/MarkSeriesGraph';
 
 import SiderMenu from '../../components/SiderMenu';
-import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu } from 'antd';
+import { AutoComplete, Layout, Card, Input, Icon, Typography, Col, Spin, Menu } from 'antd';
 
 import 'react-vis/dist/style.css';
 
@@ -44,13 +45,14 @@ const CommunicationAndInformation = () => {
 
     return (
         <div>
-                {/* <img src={countryImageData} style={{ width: '100vw', position:'absolute',
-                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} /> */}
+                <img src={require('../../pages/Communication_and_Information/background.jpg')} style={{ width: '100vw', position:'absolute',
+                height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
                 <Layout>
                     <SiderMenu color={'rgb(0,0,0)'} selectedItem={["3"]}/>
                     <Layout>
                         <Content>
-                        <div style={{ backgroundColor: 'white' }}>
+                        <Col>
+                        <Card style={{ backgroundColor: 'white', width: '60vw' , marginLeft:'10vw', marginTop: '10vh', borderRadius: 20 }}>
                             <h1>
                                 Communication and Information
                             </h1>
@@ -63,12 +65,13 @@ const CommunicationAndInformation = () => {
                                 }
                             </select>
                             <div style={{marginBottom: "40px"}}/>
-                            <PointGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
-                            <LineSeries fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
-
+                            {/* <PointGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
+                            <MarkSeriesGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
+                            {/* <LineSeries fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
                             {/* <BarGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
 
-                        </div>
+                        </Card>
+                        </Col>
                         </Content>
                     </Layout>
                 </Layout>

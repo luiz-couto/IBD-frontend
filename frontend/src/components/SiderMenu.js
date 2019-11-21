@@ -95,7 +95,7 @@ class SiderMenu extends React.Component {
           }}>
             <Link to={"/communication_and_information"}>
             <Icon type="more" />
-            <span style={{ borderBottom: '1px solid white'}}>Comunication</span><br></br>
+            <span style={{ borderBottom: '1px solid white'}}>Communication</span><br></br>
             </Link>
           </Menu.Item>
           <Menu.Item className='customclass' key="4" style={this.state.four_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
