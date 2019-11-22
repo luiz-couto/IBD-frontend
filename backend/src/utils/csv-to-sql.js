@@ -88,7 +88,11 @@ function makeInsertCommand(tableName, textByLine, separator, properties){
             
             if(value === "" || !value){
                 value = "NULL";
-            } 
+            } else {
+                if(value[0] != "'"){
+                    value = "'" + value + "'";
+                }
+            }
 
 
             return value;

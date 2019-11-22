@@ -2,76 +2,76 @@ const { convertCSVToSQL } = require("../../utils/csv-to-sql");
 
 module.exports = convertCSVToSQL("interstate_wars", "./interstate_wars/interstate_wars.csv", ",", {
     "war_id": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "war_name": {
         datatype: "TEXT",
     },
     "war_type": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "state_code": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "state_name": {
         datatype: "TEXT",
     },
     "side": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_year1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_month1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_day1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_year1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_month1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_day1": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_year2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_month2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "start_day2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_year2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_month2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "end_day2": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "previous_war": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "initiation": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "combat_location": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "combat_fatalities": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "outcome": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "next_war": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     
 

@@ -8,58 +8,58 @@ module.exports = convertCSVToSQL("countries_of_the_world", "./countries_of_the_w
         datatype: "TEXT",
     },
     "Population": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Area_sq_mi": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Pop_Density_per_sq_mi": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Coastline_coast_per_area_ratio": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Net migration": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Infant mortality_per_1000_births": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "GDP_per_capita": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Literacy_percentage": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Phones_per_1000": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Arable_percentage": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Crops_percentage": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Other_percentage": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Climate": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Birthrate": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Deathrate": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Agriculture": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Industry": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     "Service": {
-        datatype: "NUMERIC",
+        datatype: "TEXT",
     },
     constraints: ``,
 });
