@@ -6,8 +6,8 @@ function getKey(properties, column){
     let _key;
     keys.forEach(key => {
         let regex = RegExp(key);
-        
         if(regex.test(column)){
+            //console.log(column);
             _key = key;
         }
     });
@@ -21,6 +21,8 @@ function makeCreateOperation(tableName, _columns, properties){
         column = column.replace(/\r/g, '');
         return column;
     });
+
+    //console.log(columns);
 
     let sqlCreate = columns.map((column) => {
         const key = getKey(properties, column);
@@ -36,14 +38,16 @@ function makeCreateOperation(tableName, _columns, properties){
 
     });
 
+    console.log(sqlCreate)
+
     sqlCreate = sqlCreate.filter(function (el) {
         return el != undefined;
     });
     return `CREATE TABLE ${tableName} (\n${sqlCreate.join(",\n")}${properties.constraints? ",\n" + properties.constraints: ''});\n`;
 }
 
-function makeInsertCommand(tableName, textByLine, properties){
-    let columns = textByLine[0].split("|");
+function makeInsertCommand(tableName, textByLine, separator, properties){
+    let columns = textByLine[0].split(separator);
     
     columns = columns.map((column) => {
         column = column.replace(/"/g, '');
@@ -67,10 +71,17 @@ function makeInsertCommand(tableName, textByLine, properties){
     });
 
     sqlColumns = sqlColumns.join(",");
+    
     let sqlInsertCommand = `INSERT INTO ${tableName} (${sqlColumns})\nVALUES `;
 // textByLine.length-1
     for(let i=1; i<textByLine.length-1; i++){
-        let values = textByLine[i].split(`|`);
+        if(separator == ","){
+            let newLine = textByLine[i].replace(/"[^"]+"/g, function(v) { 
+                return v.replace(/,/g, '.');
+            });
+            textByLine[i] = newLine;
+        }
+        let values = textByLine[i].split(separator);
         values = values.map((value) => {
             value = value.replace(/'/g,'');
             value = value.replace(/"/g, "'");
@@ -79,10 +90,8 @@ function makeInsertCommand(tableName, textByLine, properties){
             if(value === "" || !value){
                 value = "NULL";
             }
-
             return value;
         });
-
         values = values.join(",");
         sqlInsertCommand += `(${values}),\n`;
 
@@ -93,12 +102,14 @@ function makeInsertCommand(tableName, textByLine, properties){
     return sqlInsertCommand;
 }
 
-function convertCSVToSQL (tableName, file, properties) {
+function convertCSVToSQL (tableName, file, separator, properties) {
+    let separatorCharacter = separator;
+
     let text = fs.readFileSync(path.resolve("src","tables",file)).toString();
 
     let textByLine = text.split("\n");
 
-    let _columns = textByLine[0].split(`|`);
+    let _columns = textByLine[0].split(separatorCharacter);
     for(let i=0; i<_columns.length; i++){
         for(let j=0; j<_columns.length; j++){
             let t0 = _columns[i].replace(/ /g, '').replace(/_/g, '').toLowerCase();
@@ -110,11 +121,11 @@ function convertCSVToSQL (tableName, file, properties) {
         }        
     }
 
-    textByLine[0] = _columns.join("|");
-    let columns = textByLine[0].split("|");
+    textByLine[0] = _columns.join(separatorCharacter);
+    let columns = textByLine[0].split(separatorCharacter);
 
     let sqlCreateCommand = makeCreateOperation(tableName, columns, properties);
-    let sqlInsertCommand = makeInsertCommand(tableName, textByLine, properties);
+    let sqlInsertCommand = makeInsertCommand(tableName, textByLine, separatorCharacter, properties);
     return {sqlCreateCommand, sqlInsertCommand};
 }
 

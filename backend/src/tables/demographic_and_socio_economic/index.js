@@ -1,6 +1,6 @@
 const { convertCSVToSQL } = require("../../utils/csv-to-sql");
 
-module.exports = convertCSVToSQL("demographic_and_socio_economic", "./demographic_and_socio_economic/DEMO_DS_09112019142936632.csv", {
+module.exports = convertCSVToSQL("demographic_and_socio_economic", "./demographic_and_socio_economic/DEMO_DS_09112019142936632.csv", "|", {
     "DEMO_IND": {
         datatype: "TEXT",
     },
