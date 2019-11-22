@@ -165,7 +165,7 @@ VALUES
 ('Japan', '${japanImage}'),
 ('Germany', '${germanyImage}'),
 ('France', '${franceImage}'),
-('USA', '${usaImage}'),
+('United States', '${usaImage}'),
 ('China', '${chinaImage}'),
 ('India', '${indiaImage}'),
 ('Belgium', '${belgiumImage}'),
