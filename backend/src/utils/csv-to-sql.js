@@ -22,7 +22,6 @@ function makeCreateOperation(tableName, _columns, properties){
         return column;
     });
 
-    //console.log(columns);
 
     let sqlCreate = columns.map((column) => {
         const key = getKey(properties, column);
@@ -37,8 +36,6 @@ function makeCreateOperation(tableName, _columns, properties){
         return `${_key} ${options.datatype}`;
 
     });
-
-    console.log(sqlCreate)
 
     sqlCreate = sqlCreate.filter(function (el) {
         return el != undefined;
@@ -86,10 +83,14 @@ function makeInsertCommand(tableName, textByLine, separator, properties){
             value = value.replace(/'/g,'');
             value = value.replace(/"/g, "'");
             value = value.replace(/\r/, '');
+
+            //console.log(value[0], value[value.lenght-1]);
             
             if(value === "" || !value){
                 value = "NULL";
-            }
+            } 
+
+
             return value;
         });
         values = values.join(",");
@@ -126,6 +127,7 @@ function convertCSVToSQL (tableName, file, separator, properties) {
 
     let sqlCreateCommand = makeCreateOperation(tableName, columns, properties);
     let sqlInsertCommand = makeInsertCommand(tableName, textByLine, separatorCharacter, properties);
+    //console.log(sqlInsertCommand);
     return {sqlCreateCommand, sqlInsertCommand};
 }
 

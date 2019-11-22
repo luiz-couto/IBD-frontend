@@ -76,7 +76,7 @@ class SearchCountry extends React.Component{
 
     render() {
 
-        let sql = `SELECT * FROM countries_of_the_world`;
+        let sql = `SELECT * FROM interstate_wars`;
         query(sql).then((data) => {
             console.log(data);
         })
