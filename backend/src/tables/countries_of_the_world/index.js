@@ -10,37 +10,37 @@ module.exports = convertCSVToSQL("countries_of_the_world", "./countries_of_the_w
     "Population": {
         datatype: "NUMERIC",
     },
-    "Area (sq. mi.)": {
+    "Area_sq_mi": {
         datatype: "NUMERIC",
     },
-    "Pop. Density (per sq. mi.)": {
+    "Pop_Density_per_sq_mi": {
         datatype: "NUMERIC",
     },
-    "Coastline (coast/area ratio)": {
+    "Coastline_coast_per_area_ratio": {
         datatype: "NUMERIC",
     },
     "Net migration": {
         datatype: "NUMERIC",
     },
-    "Infant mortality (per 1000 births)": {
+    "Infant mortality_per_1000_births": {
         datatype: "NUMERIC",
     },
-    "GDP ($ per capita)": {
+    "GDP_per_capita": {
         datatype: "NUMERIC",
     },
-    "Literacy (%)": {
+    "Literacy_percentage": {
         datatype: "NUMERIC",
     },
-    "Phones (per 1000)": {
+    "Phones_per_1000": {
         datatype: "NUMERIC",
     },
-    "Arable (%)": {
+    "Arable_percentage": {
         datatype: "NUMERIC",
     },
-    "Crops (%)": {
+    "Crops_percentage": {
         datatype: "NUMERIC",
     },
-    "Other (%)": {
+    "Other_percentage": {
         datatype: "NUMERIC",
     },
     "Climate": {
