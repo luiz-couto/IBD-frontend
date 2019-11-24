@@ -7,7 +7,6 @@ import analyze from 'rgbaster';
 import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu } from 'antd';
 
 import { query } from "../../utils/database/query";
-import { relative } from 'path';
 
 const { Content } = Layout;
 const { Text } = Typography;
@@ -21,11 +20,21 @@ class SearchCountry extends React.Component{
             countryImage: "",
             countryList: [],
             selectedCountry: 'Brazil',
-            current: 'search'
+            current: 'search',
+            countryData: {},
         };
     }
 
+    getCountryData() {
+        let population, area, infantMortality, gdpPerCapita, literacy;
+        let sql = `SELECT population,areasqmi,infantmortalityper1000births,gdppercapita,literacypercentage FROM countries_of_the_world WHERE country='` + this.state.selectedCountry + `'`;
+        query(sql).then((data)=> {
+            console.log(data);
+        })
+    }
+
     searchCountry(countryName) {
+        this.getCountryData();
         let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
         query(sql).then((data) => {
             if (data) {
@@ -76,16 +85,16 @@ class SearchCountry extends React.Component{
 
     render() {
 
-        let sql = `SELECT warname, combatfatalities FROM interstate_wars WHERE statename='` + this.state.selectedCountry + `'`;
-        query(sql).then((data) => {
-            console.log(data);
-        })
+        // let sql = `SELECT warname, combatfatalities FROM interstate_wars WHERE statename='` + this.state.selectedCountry + `'`;
+        // query(sql).then((data) => {
+        //     console.log(data);
+        // })
 
         let { loading, color } = this.state;
 
 
         let countryImageData = "data:image/jpeg;base64," + this.state.countryImage;
-        if (this.state.countryImage != '' && this.state.countryList != [] && loading == true) {
+        if (this.state.countryImage !== '' && this.state.countryList !== [] && loading === true) {
             try {
                 this.getColor();
             } catch(e){
@@ -101,7 +110,7 @@ class SearchCountry extends React.Component{
             
 
             <div>
-                <img src={countryImageData} style={{ width: '100vw', position:'absolute',
+                <img src={countryImageData} alt="background" style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
                 <Layout>
                     <SiderMenu color={color} selectedItem={["1"]}/>
@@ -121,7 +130,7 @@ class SearchCountry extends React.Component{
                             </Menu>
                             </div>
                         <Col className='container'>
-                            { this.state.current == 'search' ?
+                            { this.state.current === 'search' ?
                             <>
                                 <Text className='title'>{this.state.selectedCountry}</Text>
                                 <AutoComplete

@@ -70,21 +70,18 @@ function makeInsertCommand(tableName, textByLine, separator, properties){
     sqlColumns = sqlColumns.join(",");
     
     let sqlInsertCommand = `INSERT INTO ${tableName} (${sqlColumns})\nVALUES `;
-// textByLine.length-1
     for(let i=1; i<textByLine.length-1; i++){
-        if(separator == ","){
-            let newLine = textByLine[i].replace(/"[^"]+"/g, function(v) { 
-                return v.replace(/,/g, '.');
-            });
-            textByLine[i] = newLine;
-        }
+        // if(separator == ","){
+        //     let newLine = textByLine[i].replace(/"[^"]+"/g, function(v) { 
+        //         return v.replace(/,/g, '.');
+        //     });
+        //     textByLine[i] = newLine;
+        // }
         let values = textByLine[i].split(separator);
         values = values.map((value) => {
             value = value.replace(/'/g,'');
             value = value.replace(/"/g, "'");
             value = value.replace(/\r/, '');
-
-            //console.log(value[0], value[value.lenght-1]);
             
             if(value === "" || !value){
                 value = "NULL";
@@ -97,6 +94,7 @@ function makeInsertCommand(tableName, textByLine, separator, properties){
 
             return value;
         });
+
         values = values.join(",");
         sqlInsertCommand += `(${values}),\n`;
 

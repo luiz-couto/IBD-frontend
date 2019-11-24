@@ -1,64 +1,52 @@
 const { convertCSVToSQL } = require("../../utils/csv-to-sql");
 
 module.exports = convertCSVToSQL("countries_of_the_world", "./countries_of_the_world/countries_of_the_world.csv", ",", {
-    "Country": {
+    "country_id": {
         datatype: "TEXT",
     },
-    "Region": {
+    "country_name": {
         datatype: "TEXT",
     },
-    "Population": {
+    "HDI": {
         datatype: "TEXT",
     },
-    "Area_sq_mi": {
+    "blank1": {
         datatype: "TEXT",
     },
-    "Pop_Density_per_sq_mi": {
+    "life_expectancy": {
         datatype: "TEXT",
     },
-    "Coastline_coast_per_area_ratio": {
+    "blank2": {
         datatype: "TEXT",
     },
-    "Net migration": {
+    "expected_years_schooling": {
         datatype: "TEXT",
     },
-    "Infant mortality_per_1000_births": {
+    "blank3": {
         datatype: "TEXT",
     },
-    "GDP_per_capita": {
+    "mean_years_schooling": {
         datatype: "TEXT",
     },
-    "Literacy_percentage": {
+    "blank4": {
         datatype: "TEXT",
     },
-    "Phones_per_1000": {
+    "GNI_per_capita": {
         datatype: "TEXT",
     },
-    "Arable_percentage": {
+    "blank5": {
         datatype: "TEXT",
     },
-    "Crops_percentage": {
+    "gni_per_capita_rank": {
         datatype: "TEXT",
     },
-    "Other_percentage": {
+    "blank6": {
         datatype: "TEXT",
     },
-    "Climate": {
+    "hdi_rank": {
         datatype: "TEXT",
     },
-    "Birthrate": {
-        datatype: "TEXT",
-    },
-    "Deathrate": {
-        datatype: "TEXT",
-    },
-    "Agriculture": {
-        datatype: "TEXT",
-    },
-    "Industry": {
-        datatype: "TEXT",
-    },
-    "Service": {
+    "blank7": {
         datatype: "TEXT",
     },
     constraints: ``,
