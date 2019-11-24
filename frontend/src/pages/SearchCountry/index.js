@@ -4,7 +4,7 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu, Card } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu, Card, Row } from 'antd';
 
 import { query } from "../../utils/database/query";
 
@@ -126,7 +126,17 @@ class SearchCountry extends React.Component{
         });
     };
 
-    displayCountryData(countryData) {
+    displayCountryData(text, value, iconType) {
+        return(
+            <Row>
+                <Icon type={iconType}></Icon>
+                <Text style={{ color: 'grey', fontSize: 22, marginLeft: 15 }}>{text}</Text>
+                <Text style={{ color: 'grey', fontSize: 22, float: 'right' }}>{value}</Text>
+            </Row>
+        );
+    }
+
+    renderCountryIndex() {
         
     }
 
@@ -212,11 +222,8 @@ class SearchCountry extends React.Component{
                                 <Content>
                                 <Card style={{ width: '100%', height: '100%', backgroundColor: 'white'}}>
                                    { this.state.infoMenu === '1' ?
-                                   <>
-                                    <Text></Text>
-
-
-                                   </> :
+                                   this.displayCountryData('Population', (Number(countryData.population)*1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'usergroup-add')
+                                   :
                                     <span>BLA</span>
                                    }
                                 </Card>
