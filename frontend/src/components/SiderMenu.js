@@ -87,8 +87,10 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="2" style={this.state.two_selected ? this.selectedStyle : this.notSelectedStyle} onClick={() => {
             this.setState({ one_selected: false, two_selected: true, three_selected: false, four_selected: false })
           }}>
-            <Icon type="more" />
-            <span style={{ borderBottom: '1px solid white'}}>Socio - Economics</span><br></br>
+            <Link to={'/demographic'}>
+              <Icon type="more" />
+              <span style={{ borderBottom: '1px solid white'}}>Socio - Economics</span><br></br>
+              </Link>
           </Menu.Item>
           <Menu.Item className='customclass' key="3" style={this.state.three_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: true, four_selected: false })
@@ -101,8 +103,10 @@ class SiderMenu extends React.Component {
           <Menu.Item className='customclass' key="4" style={this.state.four_selected ? this.selectedStyle : this.notSelectedStyle}onClick={() => {
             this.setState({ one_selected: false, two_selected: false, three_selected: false, four_selected: true })
           }}>
+            <Link to={'/innovation'}>
             <Icon type="more" />
             <span style={{ borderBottom: '1px solid white'}}>Innovation</span><br></br>
+            </Link>
           </Menu.Item>
         </Menu>
       </Sider>
