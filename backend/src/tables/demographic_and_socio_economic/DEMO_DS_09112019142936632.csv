@@ -74,11 +74,11 @@
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"JPN"|"Japan"|"2015"|"2015"|1.45||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"JPN"|"Japan"|"2016"|"2016"|1.44||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"JPN"|"Japan"|"2017"|"2017"|1.43||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1.187||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1.205||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1.239||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1.172||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1.052||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"South Korea"|"2013"|"2013"|1.187||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"South Korea"|"2014"|"2014"|1.205||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"South Korea"|"2015"|"2015"|1.239||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"South Korea"|"2016"|"2016"|1.172||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"KOR"|"South Korea"|"2017"|"2017"|1.052||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"LUX"|"Luxembourg"|"2013"|"2013"|1.55||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"LUX"|"Luxembourg"|"2014"|"2014"|1.5||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"LUX"|"Luxembourg"|"2015"|"2015"|1.47||
@@ -900,11 +900,11 @@
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"JPN"|"Japan"|"2015"|"2015"|83.7939||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"JPN"|"Japan"|"2016"|"2016"|83.98488||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"JPN"|"Japan"|"2017"|"2017"|84.09976||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"Republic of Korea"|"2013"|"2013"|81.27073||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"Republic of Korea"|"2014"|"2014"|81.72195||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"Republic of Korea"|"2015"|"2015"|82.02439||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"Republic of Korea"|"2016"|"2016"|82.27561||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"Republic of Korea"|"2017"|"2017"|82.62683||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"South Korea"|"2013"|"2013"|81.27073||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"South Korea"|"2014"|"2014"|81.72195||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"South Korea"|"2015"|"2015"|82.02439||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"South Korea"|"2016"|"2016"|82.27561||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"KOR"|"South Korea"|"2017"|"2017"|82.62683||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"LUX"|"Luxembourg"|"2013"|"2013"|81.8||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"LUX"|"Luxembourg"|"2014"|"2014"|82.22927||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"LUX"|"Luxembourg"|"2015"|"2015"|82.29268||
@@ -1718,11 +1718,11 @@
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"JPN"|"Japan"|"2015"|"2015"|2.1||
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"JPN"|"Japan"|"2016"|"2016"|1.9||
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"JPN"|"Japan"|"2017"|"2017"|1.9||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"Republic of Korea"|"2013"|"2013"|3.2||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"Republic of Korea"|"2014"|"2014"|3.1||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"Republic of Korea"|"2015"|"2015"|3||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"Republic of Korea"|"2016"|"2016"|2.9||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"Republic of Korea"|"2017"|"2017"|2.8||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"South Korea"|"2013"|"2013"|3.2||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"South Korea"|"2014"|"2014"|3.1||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"South Korea"|"2015"|"2015"|3||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"South Korea"|"2016"|"2016"|2.9||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"KOR"|"South Korea"|"2017"|"2017"|2.8||
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"LUX"|"Luxembourg"|"2013"|"2013"|2.3||
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"LUX"|"Luxembourg"|"2014"|"2014"|2.2||
 "SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"LUX"|"Luxembourg"|"2015"|"2015"|2.2||
@@ -2513,11 +2513,11 @@
 "SP_POP_GROW"|"Population growth (annual %)"|"JPN"|"Japan"|"2015"|"2015"|-0.10612||
 "SP_POP_GROW"|"Population growth (annual %)"|"JPN"|"Japan"|"2016"|"2016"|-0.11528||
 "SP_POP_GROW"|"Population growth (annual %)"|"JPN"|"Japan"|"2017"|"2017"|-0.16448||
-"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"Republic of Korea"|"2013"|"2013"|0.45522||
-"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"Republic of Korea"|"2014"|"2014"|0.62815||
-"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"Republic of Korea"|"2015"|"2015"|0.52729||
-"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"Republic of Korea"|"2016"|"2016"|0.45132||
-"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"Republic of Korea"|"2017"|"2017"|0.42935||
+"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"South Korea"|"2013"|"2013"|0.45522||
+"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"South Korea"|"2014"|"2014"|0.62815||
+"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"South Korea"|"2015"|"2015"|0.52729||
+"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"South Korea"|"2016"|"2016"|0.45132||
+"SP_POP_GROW"|"Population growth (annual %)"|"KOR"|"South Korea"|"2017"|"2017"|0.42935||
 "SP_POP_GROW"|"Population growth (annual %)"|"LUX"|"Luxembourg"|"2013"|"2013"|2.31118||
 "SP_POP_GROW"|"Population growth (annual %)"|"LUX"|"Luxembourg"|"2014"|"2014"|2.35698||
 "SP_POP_GROW"|"Population growth (annual %)"|"LUX"|"Luxembourg"|"2015"|"2015"|2.35995||
@@ -3793,11 +3793,11 @@
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"JPN"|"Japan"|"2015"|"2015"|8.619||
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"JPN"|"Japan"|"2016"|"2016"|8.543||
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"JPN"|"Japan"|"2017"|"2017"|8.465||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"Republic of Korea"|"2013"|"2013"|18.221||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"Republic of Korea"|"2014"|"2014"|18.293||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"Republic of Korea"|"2015"|"2015"|18.366||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"Republic of Korea"|"2016"|"2016"|18.438||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"Republic of Korea"|"2017"|"2017"|18.497||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"South Korea"|"2013"|"2013"|18.221||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"South Korea"|"2014"|"2014"|18.293||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"South Korea"|"2015"|"2015"|18.366||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"South Korea"|"2016"|"2016"|18.438||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"KOR"|"South Korea"|"2017"|"2017"|18.497||
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"LUX"|"Luxembourg"|"2013"|"2013"|10.426||
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"LUX"|"Luxembourg"|"2014"|"2014"|10.116||
 "SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"LUX"|"Luxembourg"|"2015"|"2015"|9.821||
@@ -4658,11 +4658,11 @@
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"JPN"|"Japan"|"2015"|"2015"|531985800000000||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"JPN"|"Japan"|"2016"|"2016"|538445800000000||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"JPN"|"Japan"|"2017"|"2017"|546520000000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1429445400000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1486079300000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1564123900000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1641786000000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1730398500000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"South Korea"|"2013"|"2013"|1429445400000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"South Korea"|"2014"|"2014"|1486079300000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"South Korea"|"2015"|"2015"|1564123900000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"South Korea"|"2016"|"2016"|1641786000000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"KOR"|"South Korea"|"2017"|"2017"|1730398500000000||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"LUX"|"Luxembourg"|"2013"|"2013"|46499560000||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"LUX"|"Luxembourg"|"2014"|"2014"|49824506000||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"LUX"|"Luxembourg"|"2015"|"2015"|51578860000||
@@ -5518,11 +5518,11 @@
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"JPN"|"Japan"|"2015"|"2015"|4394977752877.82||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"JPN"|"Japan"|"2016"|"2016"|4949273341993.88||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"JPN"|"Japan"|"2017"|"2017"|4872415104314.68||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1305604981271.91||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1411333926201.24||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1382764027113.82||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1414804158515.26||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1530750923148.7||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"South Korea"|"2013"|"2013"|1305604981271.91||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"South Korea"|"2014"|"2014"|1411333926201.24||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"South Korea"|"2015"|"2015"|1382764027113.82||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"South Korea"|"2016"|"2016"|1414804158515.26||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"KOR"|"South Korea"|"2017"|"2017"|1530750923148.7||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LUX"|"Luxembourg"|"2013"|"2013"|61739352212.3049||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LUX"|"Luxembourg"|"2014"|"2014"|66103853236.7572||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LUX"|"Luxembourg"|"2015"|"2015"|57204400105.015||
@@ -6323,11 +6323,11 @@
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"JPN"|"Japan"|"2015"|"2015"|101.06796||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"JPN"|"Japan"|"2016"|"2016"|101.34444||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"JPN"|"Japan"|"2017"|"2017"|101.11032||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"Republic of Korea"|"2013"|"2013"|103.52054||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"Republic of Korea"|"2014"|"2014"|104.14212||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"Republic of Korea"|"2015"|"2015"|106.63597||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"Republic of Korea"|"2016"|"2016"|108.74519||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"Republic of Korea"|"2017"|"2017"|111.20847||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"South Korea"|"2013"|"2013"|103.52054||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"South Korea"|"2014"|"2014"|104.14212||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"South Korea"|"2015"|"2015"|106.63597||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"South Korea"|"2016"|"2016"|108.74519||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"KOR"|"South Korea"|"2017"|"2017"|111.20847||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"LUX"|"Luxembourg"|"2013"|"2013"|109.27443||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"LUX"|"Luxembourg"|"2014"|"2014"|112.26433||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"LUX"|"Luxembourg"|"2015"|"2015"|111.83771||
@@ -7133,11 +7133,11 @@
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"JPN"|"Japan"|"2015"|"2015"|1.35382||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"JPN"|"Japan"|"2016"|"2016"|0.93819||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"JPN"|"Japan"|"2017"|"2017"|1.73455||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"Republic of Korea"|"2013"|"2013"|2.8962||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"Republic of Korea"|"2014"|"2014"|3.34145||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"Republic of Korea"|"2015"|"2015"|2.79024||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"Republic of Korea"|"2016"|"2016"|2.9293||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"Republic of Korea"|"2017"|"2017"|3.06277||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"South Korea"|"2013"|"2013"|2.8962||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"South Korea"|"2014"|"2014"|3.34145||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"South Korea"|"2015"|"2015"|2.79024||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"South Korea"|"2016"|"2016"|2.9293||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"KOR"|"South Korea"|"2017"|"2017"|3.06277||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"LUX"|"Luxembourg"|"2013"|"2013"|3.65437||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"LUX"|"Luxembourg"|"2014"|"2014"|4.29679||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"LUX"|"Luxembourg"|"2015"|"2015"|3.91596||
@@ -7942,11 +7942,11 @@
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"JPN"|"Japan"|"2015"|"2015"|34567.74568||
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"JPN"|"Japan"|"2016"|"2016"|38972.34064||
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"JPN"|"Japan"|"2017"|"2017"|38430.29124||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"Republic of Korea"|"2013"|"2013"|25890.01867||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"Republic of Korea"|"2014"|"2014"|27811.36638||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"Republic of Korea"|"2015"|"2015"|27105.07623||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"Republic of Korea"|"2016"|"2016"|27608.24743||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"Republic of Korea"|"2017"|"2017"|29742.83886||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"South Korea"|"2013"|"2013"|25890.01867||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"South Korea"|"2014"|"2014"|27811.36638||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"South Korea"|"2015"|"2015"|27105.07623||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"South Korea"|"2016"|"2016"|27608.24743||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"KOR"|"South Korea"|"2017"|"2017"|29742.83886||
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"LUX"|"Luxembourg"|"2013"|"2013"|113625.1329||
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"LUX"|"Luxembourg"|"2014"|"2014"|118823.64837||
 "NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"LUX"|"Luxembourg"|"2015"|"2015"|100428.36796||
@@ -8747,11 +8747,11 @@
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"JPN"|"Japan"|"2015"|"2015"|40446.87919||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"JPN"|"Japan"|"2016"|"2016"|41306.75036||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"JPN"|"Japan"|"2017"|"2017"|42066.5763||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|32615.77259||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|33587.5834||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|35760.73444||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|37142.8329||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|38824.11539||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"South Korea"|"2013"|"2013"|32615.77259||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"South Korea"|"2014"|"2014"|33587.5834||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"South Korea"|"2015"|"2015"|35760.73444||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"South Korea"|"2016"|"2016"|37142.8329||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"KOR"|"South Korea"|"2017"|"2017"|38824.11539||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2013"|"2013"|95590.5387||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2014"|"2014"|101297.57575||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2015"|"2015"|102780.44094||
@@ -9494,11 +9494,11 @@
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"JPN"|"Japan"|"2015"|"2015"|5142456666807.06||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"JPN"|"Japan"|"2016"|"2016"|5245730563576.38||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"JPN"|"Japan"|"2017"|"2017"|5333444402843.26||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1644777306032.44||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1704457641238.21||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1824331972258.94||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1903410732086.29||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1998129726322.38||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"South Korea"|"2013"|"2013"|1644777306032.44||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"South Korea"|"2014"|"2014"|1704457641238.21||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"South Korea"|"2015"|"2015"|1824331972258.94||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"South Korea"|"2016"|"2016"|1903410732086.29||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"KOR"|"South Korea"|"2017"|"2017"|1998129726322.38||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"LUX"|"Luxembourg"|"2013"|"2013"|51940075107.1763||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"LUX"|"Luxembourg"|"2014"|"2014"|56353766041.0479||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"LUX"|"Luxembourg"|"2015"|"2015"|58544150279.504||
@@ -11291,11 +11291,11 @@
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"JPN"|"Japan"|"2015"|"2015"|38880||
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"JPN"|"Japan"|"2016"|"2016"|38000||
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"JPN"|"Japan"|"2017"|"2017"|38520||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"Republic of Korea"|"2013"|"2013"|25760||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"Republic of Korea"|"2014"|"2014"|26800||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"Republic of Korea"|"2015"|"2015"|27250||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"Republic of Korea"|"2016"|"2016"|27690||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"Republic of Korea"|"2017"|"2017"|28380||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"South Korea"|"2013"|"2013"|25760||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"South Korea"|"2014"|"2014"|26800||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"South Korea"|"2015"|"2015"|27250||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"South Korea"|"2016"|"2016"|27690||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"KOR"|"South Korea"|"2017"|"2017"|28380||
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"LUX"|"Luxembourg"|"2013"|"2013"|75500||
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"LUX"|"Luxembourg"|"2014"|"2014"|76470||
 "NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"LUX"|"Luxembourg"|"2015"|"2015"|74760||
@@ -12053,11 +12053,11 @@
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"JPN"|"Japan"|"2015"|"2015"|41990||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"JPN"|"Japan"|"2016"|"2016"|42630||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"JPN"|"Japan"|"2017"|"2017"|43540||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|32850||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|33690||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|35860||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|37240||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|38830||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"South Korea"|"2013"|"2013"|32850||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"South Korea"|"2014"|"2014"|33690||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"South Korea"|"2015"|"2015"|35860||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"South Korea"|"2016"|"2016"|37240||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"KOR"|"South Korea"|"2017"|"2017"|38830||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2013"|"2013"|63840||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2014"|"2014"|67290||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"LUX"|"Luxembourg"|"2015"|"2015"|69470||
@@ -12979,11 +12979,11 @@
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"JPN"|"Japan"|"2015"|"2015"|103.44974||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"JPN"|"Japan"|"2016"|"2016"|102.64458||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"JPN"|"Japan"|"2017"|"2017"|102.47037||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|869.08142||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|871.87811||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|857.36802||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|862.54951||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|866.00909||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"South Korea"|"2013"|"2013"|869.08142||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"South Korea"|"2014"|"2014"|871.87811||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"South Korea"|"2015"|"2015"|857.36802||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"South Korea"|"2016"|"2016"|862.54951||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"KOR"|"South Korea"|"2017"|"2017"|866.00909||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"LUX"|"Luxembourg"|"2013"|"2013"|0.89525||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"LUX"|"Luxembourg"|"2014"|"2014"|0.88414||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"LUX"|"Luxembourg"|"2015"|"2015"|0.88103||
@@ -14402,11 +14402,11 @@
 "200345"|"Population aged 25-64 years "|"NGA"|"Nigeria"|"2017"|"2017"|65272.161||
 "200345"|"Population aged 25-64 years "|"NGA"|"Nigeria"|"2018"|"2018"|67067.994||
 "200345"|"Population aged 25-64 years "|"NGA"|"Nigeria"|"2019"|"2019"|68935.712||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States of America"|"2013"|"2013"|54340||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States of America"|"2014"|"2014"|56730||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States of America"|"2015"|"2015"|58300||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States of America"|"2016"|"2016"|58960||
-"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States of America"|"2017"|"2017"|61120||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States"|"2013"|"2013"|54340||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States"|"2014"|"2014"|56730||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States"|"2015"|"2015"|58300||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States"|"2016"|"2016"|58960||
+"NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"USA"|"United States"|"2017"|"2017"|61120||
 "SP_POP_GROW"|"Population growth (annual %)"|"BLR"|"Belarus"|"2013"|"2013"|0.01587||
 "SP_POP_GROW"|"Population growth (annual %)"|"BLR"|"Belarus"|"2014"|"2014"|0.0899||
 "SP_POP_GROW"|"Population growth (annual %)"|"BLR"|"Belarus"|"2015"|"2015"|0.1593||
@@ -14941,11 +14941,11 @@
 "200343"|"Population aged 14 years or younger "|"PRI"|"Puerto Rico"|"2017"|"2017"|551.364||
 "200343"|"Population aged 14 years or younger "|"PRI"|"Puerto Rico"|"2018"|"2018"|511.749||
 "200343"|"Population aged 14 years or younger "|"PRI"|"Puerto Rico"|"2019"|"2019"|476.995||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States of America"|"2013"|"2013"|105.87277||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States of America"|"2014"|"2014"|107.87575||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States of America"|"2015"|"2015"|109.02931||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States of America"|"2016"|"2016"|110.22158||
-"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States of America"|"2017"|"2017"|112.31664||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States"|"2013"|"2013"|105.87277||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States"|"2014"|"2014"|107.87575||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States"|"2015"|"2015"|109.02931||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States"|"2016"|"2016"|110.22158||
+"NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"USA"|"United States"|"2017"|"2017"|112.31664||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"BLR"|"Belarus"|"2013"|"2013"|1.668||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"BLR"|"Belarus"|"2014"|"2014"|1.696||
 "SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"BLR"|"Belarus"|"2015"|"2015"|1.724||
@@ -15218,11 +15218,11 @@
 "200151"|"Population aged 65 years or older "|"BHS"|"Bahamas"|"2017"|"2017"|26.954||
 "200151"|"Population aged 65 years or older "|"BHS"|"Bahamas"|"2018"|"2018"|27.988||
 "200151"|"Population aged 65 years or older "|"BHS"|"Bahamas"|"2019"|"2019"|29.146||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States of America"|"2013"|"2013"|6||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States of America"|"2014"|"2014"|5.9||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States of America"|"2015"|"2015"|5.8||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States of America"|"2016"|"2016"|5.7||
-"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States of America"|"2017"|"2017"|5.7||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States"|"2013"|"2013"|6||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States"|"2014"|"2014"|5.9||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States"|"2015"|"2015"|5.8||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States"|"2016"|"2016"|5.7||
+"SP_DYN_IMRT_IN"|"Mortality rate, infant (per 1,000 live births)"|"USA"|"United States"|"2017"|"2017"|5.7||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"UGA"|"Uganda"|"2013"|"2013"|3.58691||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"UGA"|"Uganda"|"2014"|"2014"|5.10631||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"UGA"|"Uganda"|"2015"|"2015"|5.18786||
@@ -15576,11 +15576,11 @@
 "200345"|"Population aged 25-64 years "|"SDN"|"Sudan"|"2017"|"2017"|14425.343||
 "200345"|"Population aged 25-64 years "|"SDN"|"Sudan"|"2018"|"2018"|14870.211||
 "200345"|"Population aged 25-64 years "|"SDN"|"Sudan"|"2019"|"2019"|15337.462||
-"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States of America"|"2013"|"2013"|0.69326||
-"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States of America"|"2014"|"2014"|0.73409||
-"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States of America"|"2015"|"2015"|0.73734||
-"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States of America"|"2016"|"2016"|0.7234||
-"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States of America"|"2017"|"2017"|0.64046||
+"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States"|"2013"|"2013"|0.69326||
+"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States"|"2014"|"2014"|0.73409||
+"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States"|"2015"|"2015"|0.73734||
+"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States"|"2016"|"2016"|0.7234||
+"SP_POP_GROW"|"Population growth (annual %)"|"USA"|"United States"|"2017"|"2017"|0.64046||
 "200144"|"Population aged 15-24 years "|"MLI"|"Mali"|"2013"|"2013"|3123.201||
 "200144"|"Population aged 15-24 years "|"MLI"|"Mali"|"2014"|"2014"|3222.414||
 "200144"|"Population aged 15-24 years "|"MLI"|"Mali"|"2015"|"2015"|3334.486||
@@ -16216,11 +16216,11 @@
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"UKR"|"Ukraine"|"2014"|"2014"||"n"|"Magnitude nil or negligible"
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"UKR"|"Ukraine"|"2015"|"2015"|0.1||
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"UKR"|"Ukraine"|"2016"|"2016"|0.1||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States of America"|"2013"|"2013"|1.8575||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States of America"|"2014"|"2014"|1.8625||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States of America"|"2015"|"2015"|1.8435||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States of America"|"2016"|"2016"|1.8205||
-"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States of America"|"2017"|"2017"|1.7655||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States"|"2013"|"2013"|1.8575||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States"|"2014"|"2014"|1.8625||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States"|"2015"|"2015"|1.8435||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States"|"2016"|"2016"|1.8205||
+"SP_DYN_TFRT_IN"|"Fertility rate, total (births per woman)"|"USA"|"United States"|"2017"|"2017"|1.7655||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"UGA"|"Uganda"|"2013"|"2013"|24599550623.7254||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"UGA"|"Uganda"|"2014"|"2014"|27291879819.3622||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"UGA"|"Uganda"|"2015"|"2015"|27102650386.6012||
@@ -16573,13 +16573,13 @@
 "200345"|"Population aged 25-64 years "|"MLT"|"Malta"|"2018"|"2018"|238.48||
 "200345"|"Population aged 25-64 years "|"MLT"|"Malta"|"2019"|"2019"|238.552||
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"LKA"|"Sri Lanka"|"2016"|"2016"|0.8||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2013"|"2013"|5963151000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2014"|"2014"|6126008000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2015"|"2015"|6310073000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2016"|"2016"|6546983000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2017"|"2017"|6778052000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2018"|"2018"|7198037000000||
-"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States of America"|"2019"|"2019"|7623134000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2013"|"2013"|5963151000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2014"|"2014"|6126008000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2015"|"2015"|6310073000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2016"|"2016"|6546983000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2017"|"2017"|6778052000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2018"|"2018"|7198037000000||
+"XTGOV_IMF"|"General government total expenditure (current LCU)"|"USA"|"United States"|"2019"|"2019"|7623134000000||
 "200144"|"Population aged 15-24 years "|"CUB"|"Cuba"|"2013"|"2013"|1510.262||
 "200144"|"Population aged 15-24 years "|"CUB"|"Cuba"|"2014"|"2014"|1479.497||
 "200144"|"Population aged 15-24 years "|"CUB"|"Cuba"|"2015"|"2015"|1452.35||
@@ -16684,13 +16684,13 @@
 "200151"|"Population aged 65 years or older "|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|12205.21||
 "200151"|"Population aged 65 years or older "|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2018"|"2018"|12351.294||
 "200151"|"Population aged 65 years or older "|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2019"|"2019"|12498.954||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2013"|"2013"|30191.09||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2014"|"2014"|30379.642||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2015"|"2015"|30578.784||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2016"|"2016"|30724.883||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2017"|"2017"|30869.642||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2018"|"2018"|30990.882||
-"200345"|"Population aged 25-64 years "|"KOR"|"Republic of Korea"|"2019"|"2019"|31056.935||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2013"|"2013"|30191.09||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2014"|"2014"|30379.642||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2015"|"2015"|30578.784||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2016"|"2016"|30724.883||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2017"|"2017"|30869.642||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2018"|"2018"|30990.882||
+"200345"|"Population aged 25-64 years "|"KOR"|"South Korea"|"2019"|"2019"|31056.935||
 "SP_POP_GROW"|"Population growth (annual %)"|"TUN"|"Tunisia"|"2013"|"2013"|1.16789||
 "SP_POP_GROW"|"Population growth (annual %)"|"TUN"|"Tunisia"|"2014"|"2014"|1.16751||
 "SP_POP_GROW"|"Population growth (annual %)"|"TUN"|"Tunisia"|"2015"|"2015"|1.15761||
@@ -17099,11 +17099,11 @@
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"TTO"|"Trinidad and Tobago"|"2015"|"2015"|1.51716||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"TTO"|"Trinidad and Tobago"|"2016"|"2016"|-5.95706||
 "NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"TTO"|"Trinidad and Tobago"|"2017"|"2017"|-2.33601||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States of America"|"2013"|"2013"|16784851000000||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States of America"|"2014"|"2014"|17521747000000||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States of America"|"2015"|"2015"|18219297000000||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States of America"|"2016"|"2016"|18707189000000||
-"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States of America"|"2017"|"2017"|19485394000000||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States"|"2013"|"2013"|16784851000000||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States"|"2014"|"2014"|17521747000000||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States"|"2015"|"2015"|18219297000000||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States"|"2016"|"2016"|18707189000000||
+"NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"USA"|"United States"|"2017"|"2017"|19485394000000||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SSD"|"South Sudan"|"2013"|"2013"|220.41408||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SSD"|"South Sudan"|"2014"|"2014"|216.44315||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SSD"|"South Sudan"|"2015"|"2015"|217.09988||
@@ -17168,13 +17168,13 @@
 "200144"|"Population aged 15-24 years "|"NRU"|"Nauru"|"2017"|"2017"|1.915||
 "200144"|"Population aged 15-24 years "|"NRU"|"Nauru"|"2018"|"2018"|1.912||
 "200144"|"Population aged 15-24 years "|"NRU"|"Nauru"|"2019"|"2019"|1.912||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2013"|"2013"|6764.884||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2014"|"2014"|6773.469||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2015"|"2015"|6704.488||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2016"|"2016"|6576.719||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2017"|"2017"|6391.015||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2018"|"2018"|6163.932||
-"200144"|"Population aged 15-24 years "|"KOR"|"Republic of Korea"|"2019"|"2019"|5924.346||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2013"|"2013"|6764.884||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2014"|"2014"|6773.469||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2015"|"2015"|6704.488||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2016"|"2016"|6576.719||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2017"|"2017"|6391.015||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2018"|"2018"|6163.932||
+"200144"|"Population aged 15-24 years "|"KOR"|"South Korea"|"2019"|"2019"|5924.346||
 "200151"|"Population aged 65 years or older "|"JAM"|"Jamaica"|"2013"|"2013"|239.839||
 "200151"|"Population aged 65 years or older "|"JAM"|"Jamaica"|"2014"|"2014"|242.961||
 "200151"|"Population aged 65 years or older "|"JAM"|"Jamaica"|"2015"|"2015"|246.047||
@@ -17257,11 +17257,11 @@
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LKA"|"Sri Lanka"|"2015"|"2015"|80604080688.7961||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LKA"|"Sri Lanka"|"2016"|"2016"|81787420023.358||
 "NY_GDP_MKTP_CD"|"GDP (current US$)"|"LKA"|"Sri Lanka"|"2017"|"2017"|87357205923.1238||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States of America"|"2013"|"2013"|18.701||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States of America"|"2014"|"2014"|18.517||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States of America"|"2015"|"2015"|18.329||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States of America"|"2016"|"2016"|18.138||
-"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States of America"|"2017"|"2017"|17.942||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States"|"2013"|"2013"|18.701||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States"|"2014"|"2014"|18.517||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States"|"2015"|"2015"|18.329||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States"|"2016"|"2016"|18.138||
+"SP_RUR_TOTL_ZS"|"Rural population (% of total population)"|"USA"|"United States"|"2017"|"2017"|17.942||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"UGA"|"Uganda"|"2013"|"2013"|1670.51444||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"UGA"|"Uganda"|"2014"|"2014"|1730.08289||
 "NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"UGA"|"Uganda"|"2015"|"2015"|1779.20753||
@@ -18239,10 +18239,10 @@
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"UGA"|"Uganda"|"2015"|"2015"|76516733783400||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"UGA"|"Uganda"|"2016"|"2016"|83091168383980.5||
 "NY_GDP_MKTP_CN"|"GDP (current LCU)"|"UGA"|"Uganda"|"2017"|"2017"|91718270876940.1||
-"200144"|"Population aged 15-24 years "|"USA"|"United States of America"|"2013"|"2013"|44640.324||
-"200144"|"Population aged 15-24 years "|"USA"|"United States of America"|"2014"|"2014"|44625.346||
-"200144"|"Population aged 15-24 years "|"USA"|"United States of America"|"2015"|"2015"|44498.16||
-"200144"|"Population aged 15-24 years "|"USA"|"United States of America"|"2016"|"2016"|44398.287||
+"200144"|"Population aged 15-24 years "|"USA"|"United States"|"2013"|"2013"|44640.324||
+"200144"|"Population aged 15-24 years "|"USA"|"United States"|"2014"|"2014"|44625.346||
+"200144"|"Population aged 15-24 years "|"USA"|"United States"|"2015"|"2015"|44498.16||
+"200144"|"Population aged 15-24 years "|"USA"|"United States"|"2016"|"2016"|44398.287||
 "200151"|"Population aged 65 years or older "|"CAN"|"Canada"|"2013"|"2013"|5365.724||
 "200151"|"Population aged 65 years or older "|"CAN"|"Canada"|"2014"|"2014"|5571.97||
 "200151"|"Population aged 65 years or older "|"CAN"|"Canada"|"2015"|"2015"|5783.591||
@@ -19277,11 +19277,11 @@
 "200345"|"Population aged 25-64 years "|"ETH"|"Ethiopia"|"2017"|"2017"|35775.102||
 "200345"|"Population aged 25-64 years "|"ETH"|"Ethiopia"|"2018"|"2018"|37207.245||
 "200345"|"Population aged 25-64 years "|"ETH"|"Ethiopia"|"2019"|"2019"|38713.554||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States of America"|"2013"|"2013"|53106.9155||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States of America"|"2014"|"2014"|55032.95946||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States of America"|"2015"|"2015"|56803.47061||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States of America"|"2016"|"2016"|57904.20433||
-"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States of America"|"2017"|"2017"|59927.93029||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States"|"2013"|"2013"|53106.9155||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States"|"2014"|"2014"|55032.95946||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States"|"2015"|"2015"|56803.47061||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States"|"2016"|"2016"|57904.20433||
+"NY_GDP_PCAP_CD"|"GDP per capita (current US$)"|"USA"|"United States"|"2017"|"2017"|59927.93029||
 "200101"|"Total population "|"CAF"|"Central African Republic"|"2013"|"2013"|4447.944||
 "200101"|"Total population "|"CAF"|"Central African Republic"|"2014"|"2014"|4464.175||
 "200101"|"Total population "|"CAF"|"Central African Republic"|"2015"|"2015"|4493.17||
@@ -19668,11 +19668,11 @@
 "200343"|"Population aged 14 years or younger "|"KNA"|"Saint Kitts and Nevis"|"2017"|"2017"|10.691||
 "200343"|"Population aged 14 years or younger "|"KNA"|"Saint Kitts and Nevis"|"2018"|"2018"|10.622||
 "200343"|"Population aged 14 years or younger "|"KNA"|"Saint Kitts and Nevis"|"2019"|"2019"|10.559||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States of America"|"2013"|"2013"|1.84208||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States of America"|"2014"|"2014"|2.45197||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States of America"|"2015"|"2015"|2.88091||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States of America"|"2016"|"2016"|1.56722||
-"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States of America"|"2017"|"2017"|2.21701||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States"|"2013"|"2013"|1.84208||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States"|"2014"|"2014"|2.45197||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States"|"2015"|"2015"|2.88091||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States"|"2016"|"2016"|1.56722||
+"NY_GDP_MKTP_KD_ZG"|"GDP growth (annual %)"|"USA"|"United States"|"2017"|"2017"|2.21701||
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"TJK"|"Tajikistan"|"2015"|"2015"|4.8||
 "200144"|"Population aged 15-24 years "|"ECU"|"Ecuador"|"2013"|"2013"|2930.632||
 "200144"|"Population aged 15-24 years "|"ECU"|"Ecuador"|"2014"|"2014"|2960.95||
@@ -19922,10 +19922,10 @@
 "200151"|"Population aged 65 years or older "|"BRA"|"Brazil"|"2015"|"2015"|16384.412||
 "200151"|"Population aged 65 years or older "|"BRA"|"Brazil"|"2016"|"2016"|17115.012||
 "200151"|"Population aged 65 years or older "|"BRA"|"Brazil"|"2017"|"2017"|17885.123||
-"200151"|"Population aged 65 years or older "|"USA"|"United States of America"|"2013"|"2013"|43995.635||
-"200151"|"Population aged 65 years or older "|"USA"|"United States of America"|"2014"|"2014"|45467.365||
-"200151"|"Population aged 65 years or older "|"USA"|"United States of America"|"2015"|"2015"|46985.841||
-"200151"|"Population aged 65 years or older "|"USA"|"United States of America"|"2016"|"2016"|48561.187||
+"200151"|"Population aged 65 years or older "|"USA"|"United States"|"2013"|"2013"|43995.635||
+"200151"|"Population aged 65 years or older "|"USA"|"United States"|"2014"|"2014"|45467.365||
+"200151"|"Population aged 65 years or older "|"USA"|"United States"|"2015"|"2015"|46985.841||
+"200151"|"Population aged 65 years or older "|"USA"|"United States"|"2016"|"2016"|48561.187||
 "200345"|"Population aged 25-64 years "|"ERI"|"Eritrea"|"2013"|"2013"|1142.938||
 "200345"|"Population aged 25-64 years "|"ERI"|"Eritrea"|"2014"|"2014"|1156.434||
 "200345"|"Population aged 25-64 years "|"ERI"|"Eritrea"|"2015"|"2015"|1164.876||
@@ -19997,11 +19997,11 @@
 "200345"|"Population aged 25-64 years "|"MEX"|"Mexico"|"2017"|"2017"|60280.058||
 "200345"|"Population aged 25-64 years "|"MEX"|"Mexico"|"2018"|"2018"|61437.338||
 "200345"|"Population aged 25-64 years "|"MEX"|"Mexico"|"2019"|"2019"|62567.846||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States of America"|"2013"|"2013"|53940||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States of America"|"2014"|"2014"|55850||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States of America"|"2015"|"2015"|56700||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States of America"|"2016"|"2016"|57170||
-"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States of America"|"2017"|"2017"|59160||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States"|"2013"|"2013"|53940||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States"|"2014"|"2014"|55850||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States"|"2015"|"2015"|56700||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States"|"2016"|"2016"|57170||
+"NY_GNP_PCAP_CD"|"GNI per capita, Atlas method (current US$)"|"USA"|"United States"|"2017"|"2017"|59160||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"TJK"|"Tajikistan"|"2013"|"2013"|20695760388.7114||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"TJK"|"Tajikistan"|"2014"|"2014"|22501407773.552||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"TJK"|"Tajikistan"|"2015"|"2015"|24108429466.984||
@@ -20576,11 +20576,11 @@
 "200345"|"Population aged 25-64 years "|"SYR"|"Syrian Arab Republic"|"2017"|"2017"|7658.316||
 "200345"|"Population aged 25-64 years "|"SYR"|"Syrian Arab Republic"|"2018"|"2018"|7677.772||
 "200345"|"Population aged 25-64 years "|"SYR"|"Syrian Arab Republic"|"2019"|"2019"|7814.303||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States of America"|"2013"|"2013"|16784851000000||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States of America"|"2014"|"2014"|17521747000000||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States of America"|"2015"|"2015"|18219297000000||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States of America"|"2016"|"2016"|18707189000000||
-"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States of America"|"2017"|"2017"|19485394000000||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States"|"2013"|"2013"|16784851000000||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States"|"2014"|"2014"|17521747000000||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States"|"2015"|"2015"|18219297000000||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States"|"2016"|"2016"|18707189000000||
+"NY_GDP_MKTP_CD"|"GDP (current US$)"|"USA"|"United States"|"2017"|"2017"|19485394000000||
 "200101"|"Total population "|"TTO"|"Trinidad and Tobago"|"2013"|"2013"|1353.703||
 "200101"|"Total population "|"TTO"|"Trinidad and Tobago"|"2014"|"2014"|1362.345||
 "200101"|"Total population "|"TTO"|"Trinidad and Tobago"|"2015"|"2015"|1370.328||
@@ -20677,13 +20677,13 @@
 "200101"|"Total population "|"GUF"|"French Guiana"|"2017"|"2017"|275.191||
 "200101"|"Total population "|"GUF"|"French Guiana"|"2018"|"2018"|282.938||
 "200101"|"Total population "|"GUF"|"French Guiana"|"2019"|"2019"|290.832||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2013"|"2013"|6023.008||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2014"|"2014"|6276.781||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2015"|"2015"|6535.525||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2016"|"2016"|6800.143||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2017"|"2017"|7078.002||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2018"|"2018"|7378.221||
-"200151"|"Population aged 65 years or older "|"KOR"|"Republic of Korea"|"2019"|"2019"|7714.622||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2013"|"2013"|6023.008||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2014"|"2014"|6276.781||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2015"|"2015"|6535.525||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2016"|"2016"|6800.143||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2017"|"2017"|7078.002||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2018"|"2018"|7378.221||
+"200151"|"Population aged 65 years or older "|"KOR"|"South Korea"|"2019"|"2019"|7714.622||
 "200151"|"Population aged 65 years or older "|"TUN"|"Tunisia"|"2013"|"2013"|821.462||
 "200151"|"Population aged 65 years or older "|"TUN"|"Tunisia"|"2014"|"2014"|835.479||
 "200151"|"Population aged 65 years or older "|"TUN"|"Tunisia"|"2015"|"2015"|856.944||
@@ -20835,11 +20835,11 @@
 "200101"|"Total population "|"MLI"|"Mali"|"2017"|"2017"|18512.43||
 "200101"|"Total population "|"MLI"|"Mali"|"2018"|"2018"|19077.749||
 "200101"|"Total population "|"MLI"|"Mali"|"2019"|"2019"|19658.031||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States of America"|"2013"|"2013"|78.74146||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States of America"|"2014"|"2014"|78.84146||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States of America"|"2015"|"2015"|78.69024||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States of America"|"2016"|"2016"|78.53902||
-"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States of America"|"2017"|"2017"|78.53902||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States"|"2013"|"2013"|78.74146||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States"|"2014"|"2014"|78.84146||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States"|"2015"|"2015"|78.69024||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States"|"2016"|"2016"|78.53902||
+"SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"USA"|"United States"|"2017"|"2017"|78.53902||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"SWZ"|"Eswatini"|"2013"|"2013"|10371222180.8994||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"SWZ"|"Eswatini"|"2014"|"2014"|10771491773.7877||
 "NY_GDP_MKTP_PP_CD"|"GDP, PPP (current international $)"|"SWZ"|"Eswatini"|"2015"|"2015"|10929256112.7094||
@@ -21971,11 +21971,11 @@
 "200151"|"Population aged 65 years or older "|"MDG"|"Madagascar"|"2017"|"2017"|749.263||
 "200151"|"Population aged 65 years or older "|"MDG"|"Madagascar"|"2018"|"2018"|784.381||
 "200151"|"Population aged 65 years or older "|"MDG"|"Madagascar"|"2019"|"2019"|820.963||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States of America"|"2013"|"2013"|1||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States of America"|"2014"|"2014"|1||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States of America"|"2015"|"2015"|1||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States of America"|"2016"|"2016"|1||
-"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States of America"|"2017"|"2017"|1||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States"|"2013"|"2013"|1||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States"|"2014"|"2014"|1||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States"|"2015"|"2015"|1||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States"|"2016"|"2016"|1||
+"PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"USA"|"United States"|"2017"|"2017"|1||
 "200101"|"Total population "|"BLR"|"Belarus"|"2013"|"2013"|9423.506||
 "200101"|"Total population "|"BLR"|"Belarus"|"2014"|"2014"|9431.735||
 "200101"|"Total population "|"BLR"|"Belarus"|"2015"|"2015"|9439.423||
@@ -22081,11 +22081,11 @@
 "200345"|"Population aged 25-64 years "|"GRD"|"Grenada"|"2017"|"2017"|56.561||
 "200345"|"Population aged 25-64 years "|"GRD"|"Grenada"|"2018"|"2018"|57.311||
 "200345"|"Population aged 25-64 years "|"GRD"|"Grenada"|"2019"|"2019"|57.978||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States of America"|"2013"|"2013"|16784851000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States of America"|"2014"|"2014"|17521747000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States of America"|"2015"|"2015"|18219297000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States of America"|"2016"|"2016"|18707189000000||
-"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States of America"|"2017"|"2017"|19485394000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States"|"2013"|"2013"|16784851000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States"|"2014"|"2014"|17521747000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States"|"2015"|"2015"|18219297000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States"|"2016"|"2016"|18707189000000||
+"NY_GDP_MKTP_CN"|"GDP (current LCU)"|"USA"|"United States"|"2017"|"2017"|19485394000000||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"VNM"|"Viet Nam"|"2013"|"2013"|7517.89425||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"VNM"|"Viet Nam"|"2014"|"2014"|7648.52721||
 "PA_NUS_PPP"|"PPP conversion factor, GDP (LCU per international $)"|"VNM"|"Viet Nam"|"2015"|"2015"|7553.16602||
@@ -22400,11 +22400,11 @@
 "200151"|"Population aged 65 years or older "|"HUN"|"Hungary"|"2017"|"2017"|1807.593||
 "200151"|"Population aged 65 years or older "|"HUN"|"Hungary"|"2018"|"2018"|1859.736||
 "200151"|"Population aged 65 years or older "|"HUN"|"Hungary"|"2019"|"2019"|1907.345||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States of America"|"2013"|"2013"|53106.9155||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States of America"|"2014"|"2014"|55032.95946||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States of America"|"2015"|"2015"|56803.47061||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States of America"|"2016"|"2016"|57904.20433||
-"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States of America"|"2017"|"2017"|59927.93029||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States"|"2013"|"2013"|53106.9155||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States"|"2014"|"2014"|55032.95946||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States"|"2015"|"2015"|56803.47061||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States"|"2016"|"2016"|57904.20433||
+"NY_GDP_PCAP_PP_CD"|"GDP per capita, PPP (current international $)"|"USA"|"United States"|"2017"|"2017"|59927.93029||
 "200101"|"Total population "|"DZA"|"Algeria"|"2013"|"2013"|38140.133||
 "200101"|"Total population "|"DZA"|"Algeria"|"2014"|"2014"|38923.692||
 "200101"|"Total population "|"DZA"|"Algeria"|"2015"|"2015"|39728.025||
@@ -22652,13 +22652,13 @@
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SWE"|"Sweden"|"2015"|"2015"|107.3431||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SWE"|"Sweden"|"2016"|"2016"|109.11426||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"SWE"|"Sweden"|"2017"|"2017"|111.57623||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2013"|"2013"|50345.717||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2014"|"2014"|50607.907||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2015"|"2015"|50823.093||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2016"|"2016"|50983.457||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2017"|"2017"|51096.415||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2018"|"2018"|51171.706||
-"200101"|"Total population "|"KOR"|"Republic of Korea"|"2019"|"2019"|51225.308||
+"200101"|"Total population "|"KOR"|"South Korea"|"2013"|"2013"|50345.717||
+"200101"|"Total population "|"KOR"|"South Korea"|"2014"|"2014"|50607.907||
+"200101"|"Total population "|"KOR"|"South Korea"|"2015"|"2015"|50823.093||
+"200101"|"Total population "|"KOR"|"South Korea"|"2016"|"2016"|50983.457||
+"200101"|"Total population "|"KOR"|"South Korea"|"2017"|"2017"|51096.415||
+"200101"|"Total population "|"KOR"|"South Korea"|"2018"|"2018"|51171.706||
+"200101"|"Total population "|"KOR"|"South Korea"|"2019"|"2019"|51225.308||
 "200345"|"Population aged 25-64 years "|"NER"|"Niger"|"2013"|"2013"|5305.978||
 "200345"|"Population aged 25-64 years "|"NER"|"Niger"|"2014"|"2014"|5490.499||
 "200345"|"Population aged 25-64 years "|"NER"|"Niger"|"2015"|"2015"|5687.925||
@@ -22718,10 +22718,10 @@
 "200345"|"Population aged 25-64 years "|"KEN"|"Kenya"|"2017"|"2017"|18532.249||
 "200345"|"Population aged 25-64 years "|"KEN"|"Kenya"|"2018"|"2018"|19136.245||
 "200345"|"Population aged 25-64 years "|"KEN"|"Kenya"|"2019"|"2019"|19763.574||
-"200345"|"Population aged 25-64 years "|"USA"|"United States of America"|"2013"|"2013"|165696.131||
-"200345"|"Population aged 25-64 years "|"USA"|"United States of America"|"2014"|"2014"|166706.298||
-"200345"|"Population aged 25-64 years "|"USA"|"United States of America"|"2015"|"2015"|167709.54||
-"200345"|"Population aged 25-64 years "|"USA"|"United States of America"|"2016"|"2016"|168608.082||
+"200345"|"Population aged 25-64 years "|"USA"|"United States"|"2013"|"2013"|165696.131||
+"200345"|"Population aged 25-64 years "|"USA"|"United States"|"2014"|"2014"|166706.298||
+"200345"|"Population aged 25-64 years "|"USA"|"United States"|"2015"|"2015"|167709.54||
+"200345"|"Population aged 25-64 years "|"USA"|"United States"|"2016"|"2016"|168608.082||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"ARE"|"United Arab Emirates"|"2013"|"2013"|76.798||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"ARE"|"United Arab Emirates"|"2014"|"2014"|76.948||
 "SP_DYN_LE00_IN"|"Life expectancy at birth, total (years)"|"ARE"|"United Arab Emirates"|"2015"|"2015"|77.101||
@@ -23039,10 +23039,10 @@
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"TZA"|"United Republic of Tanzania"|"2015"|"2015"|2620||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"TZA"|"United Republic of Tanzania"|"2016"|"2016"|2730||
 "NY_GNP_PCAP_PP_CD"|"GNI per capita, PPP (current international $)"|"TZA"|"United Republic of Tanzania"|"2017"|"2017"|2880||
-"200101"|"Total population "|"USA"|"United States of America"|"2013"|"2013"|316400.538||
-"200101"|"Total population "|"USA"|"United States of America"|"2014"|"2014"|318673.411||
-"200101"|"Total population "|"USA"|"United States of America"|"2015"|"2015"|320878.31||
-"200101"|"Total population "|"USA"|"United States of America"|"2016"|"2016"|323015.995||
+"200101"|"Total population "|"USA"|"United States"|"2013"|"2013"|316400.538||
+"200101"|"Total population "|"USA"|"United States"|"2014"|"2014"|318673.411||
+"200101"|"Total population "|"USA"|"United States"|"2015"|"2015"|320878.31||
+"200101"|"Total population "|"USA"|"United States"|"2016"|"2016"|323015.995||
 "200151"|"Population aged 65 years or older "|"SVN"|"Slovenia"|"2013"|"2013"|357.671||
 "200151"|"Population aged 65 years or older "|"SVN"|"Slovenia"|"2014"|"2014"|364.541||
 "200151"|"Population aged 65 years or older "|"SVN"|"Slovenia"|"2015"|"2015"|373.091||
@@ -23193,13 +23193,13 @@
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|107.71467||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|109.9342||
 "NY_GDP_DEFL_ZS"|"GDP deflator (base year varies by country)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|112.35728||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2013"|"2013"|7366.735||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2014"|"2014"|7178.015||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2015"|"2015"|7004.296||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2016"|"2016"|6881.712||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2017"|"2017"|6757.756||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2018"|"2018"|6638.671||
-"200343"|"Population aged 14 years or younger "|"KOR"|"Republic of Korea"|"2019"|"2019"|6529.405||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2013"|"2013"|7366.735||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2014"|"2014"|7178.015||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2015"|"2015"|7004.296||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2016"|"2016"|6881.712||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2017"|"2017"|6757.756||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2018"|"2018"|6638.671||
+"200343"|"Population aged 14 years or younger "|"KOR"|"South Korea"|"2019"|"2019"|6529.405||
 "200345"|"Population aged 25-64 years "|"JAM"|"Jamaica"|"2013"|"2013"|1350.924||
 "200345"|"Population aged 25-64 years "|"JAM"|"Jamaica"|"2014"|"2014"|1372.326||
 "200345"|"Population aged 25-64 years "|"JAM"|"Jamaica"|"2015"|"2015"|1394.104||
@@ -23663,10 +23663,10 @@
 "200151"|"Population aged 65 years or older "|"ASM"|"American Samoa"|"2017"|"2017"|2.991||
 "200151"|"Population aged 65 years or older "|"ASM"|"American Samoa"|"2018"|"2018"|3.136||
 "200151"|"Population aged 65 years or older "|"ASM"|"American Samoa"|"2019"|"2019"|3.28||
-"200343"|"Population aged 14 years or younger "|"USA"|"United States of America"|"2013"|"2013"|62068.448||
-"200343"|"Population aged 14 years or younger "|"USA"|"United States of America"|"2014"|"2014"|61874.402||
-"200343"|"Population aged 14 years or younger "|"USA"|"United States of America"|"2015"|"2015"|61684.769||
-"200343"|"Population aged 14 years or younger "|"USA"|"United States of America"|"2016"|"2016"|61448.439||
+"200343"|"Population aged 14 years or younger "|"USA"|"United States"|"2013"|"2013"|62068.448||
+"200343"|"Population aged 14 years or younger "|"USA"|"United States"|"2014"|"2014"|61874.402||
+"200343"|"Population aged 14 years or younger "|"USA"|"United States"|"2015"|"2015"|61684.769||
+"200343"|"Population aged 14 years or younger "|"USA"|"United States"|"2016"|"2016"|61448.439||
 "200345"|"Population aged 25-64 years "|"YEM"|"Yemen"|"2013"|"2013"|8364.055||
 "200345"|"Population aged 25-64 years "|"YEM"|"Yemen"|"2014"|"2014"|8737.564||
 "200345"|"Population aged 25-64 years "|"YEM"|"Yemen"|"2015"|"2015"|9130.793||
@@ -29051,11 +29051,11 @@
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KAZ"|"Kazakhstan"|"2015"|"2015"|0.41837||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KAZ"|"Kazakhstan"|"2016"|"2016"|0.30476||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KAZ"|"Kazakhstan"|"2017"|"2017"|0.34088||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"Republic of Korea"|"2013"|"2013"|28548007.19104||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"Republic of Korea"|"2014"|"2014"|29376592.06294||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"Republic of Korea"|"2015"|"2015"|30743599.518||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"Republic of Korea"|"2016"|"2016"|32123840.14919||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"Republic of Korea"|"2017"|"2017"|33623258.88402||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"South Korea"|"2013"|"2013"|28548007.19104||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"South Korea"|"2014"|"2014"|29376592.06294||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"South Korea"|"2015"|"2015"|30743599.518||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"South Korea"|"2016"|"2016"|32123840.14919||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KOR"|"South Korea"|"2017"|"2017"|33623258.88402||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LBY"|"Libya"|"2013"|"2013"|13444.22262||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LBY"|"Libya"|"2014"|"2014"|8437.95756||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LBY"|"Libya"|"2015"|"2015"|6167.73529||
@@ -29345,11 +29345,11 @@
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"JAM"|"Jamaica"|"2015"|"2015"|577800.53441||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"JAM"|"Jamaica"|"2016"|"2016"|611166.2742||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"JAM"|"Jamaica"|"2017"|"2017"|656438.31313||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1380832600000000||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1426972400000000||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1466788300000000||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1509755000000000||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1555995300000000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"South Korea"|"2013"|"2013"|1380832600000000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"South Korea"|"2014"|"2014"|1426972400000000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"South Korea"|"2015"|"2015"|1466788300000000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"South Korea"|"2016"|"2016"|1509755000000000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KOR"|"South Korea"|"2017"|"2017"|1555995300000000||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"LBY"|"Libya"|"2013"|"2013"|1.27169||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"LBY"|"Libya"|"2014"|"2014"|1.2724||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"LBY"|"Libya"|"2015"|"2015"|1.38121||
@@ -29936,11 +29936,11 @@
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"JAM"|"Jamaica"|"2015"|"2015"|78.90345||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"JAM"|"Jamaica"|"2016"|"2016"|79.75136||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"JAM"|"Jamaica"|"2017"|"2017"|81.50631||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1094.85292||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1052.96083||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1131.1575||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1160.43344||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1130.42462||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"South Korea"|"2013"|"2013"|1094.85292||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"South Korea"|"2014"|"2014"|1052.96083||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"South Korea"|"2015"|"2015"|1131.1575||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"South Korea"|"2016"|"2016"|1160.43344||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KOR"|"South Korea"|"2017"|"2017"|1130.42462||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PNG"|"Papua New Guinea"|"2013"|"2013"|3282.46375||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PNG"|"Papua New Guinea"|"2014"|"2014"|3709.08164||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PNG"|"Papua New Guinea"|"2015"|"2015"|3824.72982||
@@ -30206,11 +30206,11 @@
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LCA"|"Saint Lucia"|"2015"|"2015"|24720.26399||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LCA"|"Saint Lucia"|"2016"|"2016"|24808.71443||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"LCA"|"Saint Lucia"|"2017"|"2017"|26231.02592||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"Republic of Korea"|"2013"|"2013"|28345762.02178||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"Republic of Korea"|"2014"|"2014"|29284278.59655||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"Republic of Korea"|"2015"|"2015"|30660110.26141||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"Republic of Korea"|"2016"|"2016"|32037532.43174||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"Republic of Korea"|"2017"|"2017"|33622036.7227||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"South Korea"|"2013"|"2013"|28345762.02178||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"South Korea"|"2014"|"2014"|29284278.59655||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"South Korea"|"2015"|"2015"|30660110.26141||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"South Korea"|"2016"|"2016"|32037532.43174||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"KOR"|"South Korea"|"2017"|"2017"|33622036.7227||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"MYS"|"Malaysia"|"2013"|"2013"|1.58975||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"MYS"|"Malaysia"|"2014"|"2014"|1.61354||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"MYS"|"Malaysia"|"2015"|"2015"|1.64554||
@@ -30256,11 +30256,11 @@
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"CIV"|"Côte d'Ivoire"|"2015"|"2015"|18999881000000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"CIV"|"Côte d'Ivoire"|"2016"|"2016"|20867597000000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"CIV"|"Côte d'Ivoire"|"2017"|"2017"|21476799000000||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|976.33103||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|994.75847||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|959.6801||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|961.14478||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|962.00283||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"South Korea"|"2013"|"2013"|976.33103||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"South Korea"|"2014"|"2014"|994.75847||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"South Korea"|"2015"|"2015"|959.6801||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"South Korea"|"2016"|"2016"|961.14478||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"KOR"|"South Korea"|"2017"|"2017"|962.00283||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"LAO"|"Lao People's Democratic Republic"|"2013"|"2013"|88160112762500||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"LAO"|"Lao People's Democratic Republic"|"2014"|"2014"|94870828315300||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"LAO"|"Lao People's Democratic Republic"|"2015"|"2015"|101767550247400||
@@ -30531,11 +30531,11 @@
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"JAM"|"Jamaica"|"2015"|"2015"|117.31||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"JAM"|"Jamaica"|"2016"|"2016"|125.14||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"JAM"|"Jamaica"|"2017"|"2017"|128.36||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1439644400000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1490763900000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1568383100000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1646208900000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1730461400000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"South Korea"|"2013"|"2013"|1439644400000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"South Korea"|"2014"|"2014"|1490763900000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"South Korea"|"2015"|"2015"|1568383100000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"South Korea"|"2016"|"2016"|1646208900000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KOR"|"South Korea"|"2017"|"2017"|1730461400000000||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PRT"|"Portugal"|"2013"|"2013"|25654.61445||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PRT"|"Portugal"|"2014"|"2014"|26023.69785||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"PRT"|"Portugal"|"2015"|"2015"|26607.83297||
@@ -31431,11 +31431,11 @@
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KHM"|"Cambodia"|"2015"|"2015"|15903594933.6638||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KHM"|"Cambodia"|"2016"|"2016"|16995073300.8889||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KHM"|"Cambodia"|"2017"|"2017"|18201700723.3023||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1094.8529||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1052.9608||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1131.1575||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1160.4334||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1130.4246||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"South Korea"|"2013"|"2013"|1094.8529||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"South Korea"|"2014"|"2014"|1052.9608||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"South Korea"|"2015"|"2015"|1131.1575||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"South Korea"|"2016"|"2016"|1160.4334||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KOR"|"South Korea"|"2017"|"2017"|1130.4246||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KWT"|"Kuwait"|"2013"|"2013"|39111400000||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KWT"|"Kuwait"|"2014"|"2014"|39307300000||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"KWT"|"Kuwait"|"2015"|"2015"|39540400000||
@@ -31731,11 +31731,11 @@
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KHM"|"Cambodia"|"2015"|"2015"|68927052860800||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KHM"|"Cambodia"|"2016"|"2016"|76255944356000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"KHM"|"Cambodia"|"2017"|"2017"|84252912607200||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1641395692018||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1696242071623.01||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1743571231387.8||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1794645747067.85||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1849611591021.43||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2013"|"2013"|1641395692018||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2014"|"2014"|1696242071623.01||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2015"|"2015"|1743571231387.8||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2016"|"2016"|1794645747067.85||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2017"|"2017"|1849611591021.43||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KWT"|"Kuwait"|"2013"|"2013"|14770.83853||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KWT"|"Kuwait"|"2014"|"2014"|13413.60758||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"KWT"|"Kuwait"|"2015"|"2015"|9729.21855||
@@ -31980,11 +31980,11 @@
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KHM"|"Cambodia"|"2015"|"2015"|4067.75||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KHM"|"Cambodia"|"2016"|"2016"|4058.6946||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"KHM"|"Cambodia"|"2017"|"2017"|4050.58||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"Republic of Korea"|"2013"|"2013"|1194428840692.66||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"Republic of Korea"|"2014"|"2014"|1234340056450.31||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"Republic of Korea"|"2015"|"2015"|1268781059130.96||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"Republic of Korea"|"2016"|"2016"|1305947523530.33||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"Republic of Korea"|"2017"|"2017"|1345945672416.94||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"South Korea"|"2013"|"2013"|1194428840692.66||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"South Korea"|"2014"|"2014"|1234340056450.31||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"South Korea"|"2015"|"2015"|1268781059130.96||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"South Korea"|"2016"|"2016"|1305947523530.33||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"KOR"|"South Korea"|"2017"|"2017"|1345945672416.94||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KWT"|"Kuwait"|"2013"|"2013"|0.28359||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KWT"|"Kuwait"|"2014"|"2014"|0.28457||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"KWT"|"Kuwait"|"2015"|"2015"|0.30085||
@@ -32386,11 +32386,11 @@
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"IRQ"|"Iraq"|"2015"|"2015"|180533666812900||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"IRQ"|"Iraq"|"2016"|"2016"|204046649098300||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"IRQ"|"Iraq"|"2017"|"2017"|199816410904000||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"Republic of Korea"|"2013"|"2013"|0.79379||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"Republic of Korea"|"2014"|"2014"|0.82803||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"Republic of Korea"|"2015"|"2015"|0.75796||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"Republic of Korea"|"2016"|"2016"|0.7433||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"Republic of Korea"|"2017"|"2017"|0.76609||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"South Korea"|"2013"|"2013"|0.79379||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"South Korea"|"2014"|"2014"|0.82803||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"South Korea"|"2015"|"2015"|0.75796||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"South Korea"|"2016"|"2016"|0.7433||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"KOR"|"South Korea"|"2017"|"2017"|0.76609||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"PRY"|"Paraguay"|"2013"|"2013"|25784301.08091||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"PRY"|"Paraguay"|"2014"|"2014"|27427593.32939||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"PRY"|"Paraguay"|"2015"|"2015"|28351762.23284||
@@ -32611,11 +32611,11 @@
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"JAM"|"Jamaica"|"2015"|"2015"|556770.10683||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"JAM"|"Jamaica"|"2016"|"2016"|581743.6588||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"JAM"|"Jamaica"|"2017"|"2017"|634205.31924||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2013"|"2013"|32548.71552||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2014"|"2014"|33425.68959||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2015"|"2015"|34177.65447||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2016"|"2016"|35020.41151||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"Republic of Korea"|"2017"|"2017"|35938.37422||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2013"|"2013"|32548.71552||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2014"|"2014"|33425.68959||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2015"|"2015"|34177.65447||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2016"|"2016"|35020.41151||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"KOR"|"South Korea"|"2017"|"2017"|35938.37422||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"LSO"|"Lesotho"|"2013"|"2013"|2725363040.48782||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"LSO"|"Lesotho"|"2014"|"2014"|2810441002.48016||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"LSO"|"Lesotho"|"2015"|"2015"|2888196341.5871||
@@ -33376,11 +33376,11 @@
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|2719580793136.38||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|2768240513221.77||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|2818703538384.81||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States of America"|"2013"|"2013"|15853794839100||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States of America"|"2014"|"2014"|16242525613600||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States of America"|"2015"|"2015"|16710458234000||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States of America"|"2016"|"2016"|16972347070400||
-"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States of America"|"2017"|"2017"|17348625758200||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States"|"2013"|"2013"|15853794839100||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States"|"2014"|"2014"|16242525613600||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States"|"2015"|"2015"|16710458234000||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States"|"2016"|"2016"|16972347070400||
+"NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"USA"|"United States"|"2017"|"2017"|17348625758200||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"BLR"|"Belarus"|"2013"|"2013"|63494325276.0969||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"BLR"|"Belarus"|"2014"|"2014"|64590481690.9209||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"BLR"|"Belarus"|"2015"|"2015"|62116943620.6317||
@@ -33552,11 +33552,11 @@
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|1760056517900||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|1791548083700||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|1824206711300||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States of America"|"2013"|"2013"|15853794839100||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States of America"|"2014"|"2014"|16242525613600||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States of America"|"2015"|"2015"|16710458234000||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States of America"|"2016"|"2016"|16972347070400||
-"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States of America"|"2017"|"2017"|17348625758200||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States"|"2013"|"2013"|15853794839100||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States"|"2014"|"2014"|16242525613600||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States"|"2015"|"2015"|16710458234000||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States"|"2016"|"2016"|16972347070400||
+"NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"USA"|"United States"|"2017"|"2017"|17348625758200||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"BLR"|"Belarus"|"2013"|"2013"|79211770000||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"BLR"|"Belarus"|"2014"|"2014"|80579270000||
 "NY_GDP_MKTP_KN"|"GDP (constant LCU)"|"BLR"|"Belarus"|"2015"|"2015"|77493430000||
@@ -33736,11 +33736,11 @@
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|2540659601545.17||
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|2586117999161.24||
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|2633261062433||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2013"|"2013"|16184967076065||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2014"|"2014"|16581818104515.2||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2015"|"2015"|17059525437797.5||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2016"|"2016"|17326884908368.5||
-"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2017"|"2017"|17711023736660.1||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States"|"2013"|"2013"|16184967076065||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States"|"2014"|"2014"|16581818104515.2||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States"|"2015"|"2015"|17059525437797.5||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States"|"2016"|"2016"|17326884908368.5||
+"NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"USA"|"United States"|"2017"|"2017"|17711023736660.1||
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2013"|"2013"|167026138881.981||
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2014"|"2014"|169909652846.144||
 "NY_GDP_MKTP_PP_KD"|"GDP, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2015"|"2015"|163402842805.066||
@@ -33912,11 +33912,11 @@
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|29109.04583||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|30025.26162||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|31044.03007||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States of America"|"2013"|"2013"|53106.9155||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States of America"|"2014"|"2014"|55032.95946||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States of America"|"2015"|"2015"|56803.47061||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States of America"|"2016"|"2016"|57904.20433||
-"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States of America"|"2017"|"2017"|59927.93029||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States"|"2013"|"2013"|53106.9155||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States"|"2014"|"2014"|55032.95946||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States"|"2015"|"2015"|56803.47061||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States"|"2016"|"2016"|57904.20433||
+"NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"USA"|"United States"|"2017"|"2017"|59927.93029||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"BLR"|"Belarus"|"2013"|"2013"|7085.23888||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"BLR"|"Belarus"|"2014"|"2014"|8504.84737||
 "NY_GDP_PCAP_CN"|"GDP per capita (current LCU)"|"BLR"|"Belarus"|"2015"|"2015"|9474.5467||
@@ -34109,11 +34109,11 @@
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|39009.73489||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|39425.19588||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|39883.82073||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2013"|"2013"|51208.89538||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2014"|"2014"|52080.79557||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2015"|"2015"|53187.57644||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2016"|"2016"|53631.76072||
-"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States of America"|"2017"|"2017"|54470.79981||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States"|"2013"|"2013"|51208.89538||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States"|"2014"|"2014"|52080.79557||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States"|"2015"|"2015"|53187.57644||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States"|"2016"|"2016"|53631.76072||
+"NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"USA"|"United States"|"2017"|"2017"|54470.79981||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2013"|"2013"|17644.85441||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2014"|"2014"|17933.34272||
 "NY_GDP_PCAP_PP_KD"|"GDP per capita, PPP (constant 2011 international $)"|"BLR"|"Belarus"|"2015"|"2015"|17219.12065||
@@ -34285,11 +34285,11 @@
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|1852845000000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|1920116000000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|2011674000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States of America"|"2013"|"2013"|17175898000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States of America"|"2014"|"2014"|18062432000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States of America"|"2015"|"2015"|18700478000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States of America"|"2016"|"2016"|19049435000000||
-"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States of America"|"2017"|"2017"|19872232000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States"|"2013"|"2013"|17175898000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States"|"2014"|"2014"|18062432000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States"|"2015"|"2015"|18700478000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States"|"2016"|"2016"|19049435000000||
+"NY_GNP_MKTP_CN"|"GNI (current LCU)"|"USA"|"United States"|"2017"|"2017"|19872232000000||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"BLR"|"Belarus"|"2013"|"2013"|64685867200||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"BLR"|"Belarus"|"2014"|"2014"|78112934600||
 "NY_GNP_MKTP_CN"|"GNI (current LCU)"|"BLR"|"Belarus"|"2015"|"2015"|85992994000||
@@ -34488,11 +34488,11 @@
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|28448.90839||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|29272.03996||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|30469.15717||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States of America"|"2013"|"2013"|54344.17998||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States of America"|"2014"|"2014"|56731.16317||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States of America"|"2015"|"2015"|58303.67947||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States of America"|"2016"|"2016"|58963.55549||
-"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States of America"|"2017"|"2017"|61117.66249||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States"|"2013"|"2013"|54344.17998||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States"|"2014"|"2014"|56731.16317||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States"|"2015"|"2015"|58303.67947||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States"|"2016"|"2016"|58963.55549||
+"NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"USA"|"United States"|"2017"|"2017"|61117.66249||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"BLR"|"Belarus"|"2013"|"2013"|6833.49754||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"BLR"|"Belarus"|"2014"|"2014"|8244.53469||
 "NY_GNP_PCAP_CN"|"GNI per capita (current LCU)"|"BLR"|"Belarus"|"2015"|"2015"|9061.79913||
@@ -34681,11 +34681,11 @@
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|0.65455||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|0.74063||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|0.777||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States of America"|"2013"|"2013"|1||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States of America"|"2014"|"2014"|1||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States of America"|"2015"|"2015"|1||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States of America"|"2016"|"2016"|1||
-"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States of America"|"2017"|"2017"|1||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States"|"2013"|"2013"|1||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States"|"2014"|"2014"|1||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States"|"2015"|"2015"|1||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States"|"2016"|"2016"|1||
+"PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"USA"|"United States"|"2017"|"2017"|1||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"BLR"|"Belarus"|"2013"|"2013"|0.888||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"BLR"|"Belarus"|"2014"|"2014"|1.0224||
 "PA_NUS_ATLS"|"DEC alternative conversion factor (LCU per US$)"|"BLR"|"Belarus"|"2015"|"2015"|1.5926||
@@ -34870,11 +34870,11 @@
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|0.65455||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|0.74063||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|0.777||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States of America"|"2013"|"2013"|1||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States of America"|"2014"|"2014"|1||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States of America"|"2015"|"2015"|1||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States of America"|"2016"|"2016"|1||
-"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States of America"|"2017"|"2017"|1||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States"|"2013"|"2013"|1||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States"|"2014"|"2014"|1||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States"|"2015"|"2015"|1||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States"|"2016"|"2016"|1||
+"PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"USA"|"United States"|"2017"|"2017"|1||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"BLR"|"Belarus"|"2013"|"2013"|0.88801||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"BLR"|"Belarus"|"2014"|"2014"|1.02241||
 "PA_NUS_FCRF"|"Official exchange rate (LCU per US$, period average)"|"BLR"|"Belarus"|"2015"|"2015"|1.5926||
@@ -35078,11 +35078,11 @@
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|1.05778||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|0.94329||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|0.88943||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States of America"|"2013"|"2013"|1||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States of America"|"2014"|"2014"|1||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States of America"|"2015"|"2015"|1||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States of America"|"2016"|"2016"|1||
-"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States of America"|"2017"|"2017"|1||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States"|"2013"|"2013"|1||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States"|"2014"|"2014"|1||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States"|"2015"|"2015"|1||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States"|"2016"|"2016"|1||
+"PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"USA"|"United States"|"2017"|"2017"|1||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"BLR"|"Belarus"|"2013"|"2013"|0.43603||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"BLR"|"Belarus"|"2014"|"2014"|0.43897||
 "PA_NUS_PPPC_RF"|"Price level ratio of PPP conversion factor (GDP) to market exchange rate"|"BLR"|"Belarus"|"2015"|"2015"|0.3235||
@@ -35254,11 +35254,11 @@
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|0.8058||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2016"|"2016"|0.79818||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2017"|"2017"|0.78914||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States of America"|"2013"|"2013"|1||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States of America"|"2014"|"2014"|1||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States of America"|"2015"|"2015"|1||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States of America"|"2016"|"2016"|1||
-"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States of America"|"2017"|"2017"|1||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States"|"2013"|"2013"|1||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States"|"2014"|"2014"|1||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States"|"2015"|"2015"|1||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States"|"2016"|"2016"|1||
+"PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"USA"|"United States"|"2017"|"2017"|1||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"BLR"|"Belarus"|"2013"|"2013"|0.33331||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"BLR"|"Belarus"|"2014"|"2014"|0.38742||
 "PA_NUS_PRVT_PP"|"PPP conversion factor, private consumption (LCU per international $)"|"BLR"|"Belarus"|"2015"|"2015"|0.43933||
@@ -35824,8 +35824,8 @@
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2013"|"2013"|0.2||
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2014"|"2014"|0.2||
 "SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"GBR"|"United Kingdom of Great Britain and Northern Ireland"|"2015"|"2015"|0.2||
-"SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"USA"|"United States of America"|"2013"|"2013"|1||
-"SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"USA"|"United States of America"|"2016"|"2016"|1.2||
+"SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"USA"|"United States"|"2013"|"2013"|1||
+"SI_POV_DDAY"|"Poverty headcount ratio at $1.90 a day (PPP) (% of population)"|"USA"|"United States"|"2016"|"2016"|1.2||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"VIR"|"United States Virgin Islands"|"2013"|"2013"|3189026880.45272||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"VIR"|"United States Virgin Islands"|"2014"|"2014"|3158333647.72459||
 "NY_GDP_MKTP_KD"|"GDP at market prices (constant 2010 US$)"|"VIR"|"United States Virgin Islands"|"2015"|"2015"|3166518509.78543||

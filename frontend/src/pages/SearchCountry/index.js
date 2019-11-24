@@ -25,16 +25,49 @@ class SearchCountry extends React.Component{
         };
     }
 
-    getCountryData() {
-        let population, area, infantMortality, gdpPerCapita, literacy;
-        let sql = `SELECT population,areasqmi,infantmortalityper1000births,gdppercapita,literacypercentage FROM countries_of_the_world WHERE country='` + this.state.selectedCountry + `'`;
+    getCountryData(countryName) {
+        let population, hdi, lifeExpectancy, expectedYearsSchooling, gniPerCapita, infantMortality;
+        let wars;
+        let sql = `SELECT * FROM demographic_and_socio_economic WHERE country='` + countryName + `'` + `AND indicator='` + 'Total population ' + `'`;
         query(sql).then((data)=> {
-            console.log(data);
+            if(data.rows[0]){
+                let index = data.rowCount - 1
+                population = data.rows[index].value;
+            }
+        });
+
+        sql = `SELECT warname, combatfatalities FROM interstate_wars WHERE statename='` + countryName + `'`;
+        query(sql).then((data)=>{
+            if(data.rows){
+                wars = data.rows;
+            }
         })
+
+        sql = `SELECT * FROM countries_of_the_world WHERE countryname='` + countryName + `'`;
+        query(sql).then((data)=> {
+            if(data.rows[0]){
+                hdi = data.rows[0].hdi;
+                lifeExpectancy = data.rows[0].lifeexpectancy;
+                expectedYearsSchooling = data.rows[0].expectedyearsschooling;
+                gniPerCapita = data.rows[0].gnipercapita;
+            }
+        }).then(() => {
+            this.setState({countryData:
+                {   
+                    population: population,
+                    hdi: hdi,
+                    lifeExpectancy: lifeExpectancy,
+                    expectedYearsSchooling: expectedYearsSchooling,
+                    gniPerCapita: gniPerCapita,
+                    wars: wars
+                }
+            });
+        })
+        
     }
 
     searchCountry(countryName) {
-        this.getCountryData();
+        this.getCountryData(countryName);
         let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
         query(sql).then((data) => {
             if (data) {
@@ -68,6 +101,8 @@ class SearchCountry extends React.Component{
                 this.setState({ countryList: countryList })
             }
         });
+
+        this.getCountryData(this.state.selectedCountry);
     }
 
     async getColor() {
@@ -101,7 +136,7 @@ class SearchCountry extends React.Component{
                 console.log(e);
             }
         }
-
+        console.log(this.state.countryData);
         return (
             loading ? 
             <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
