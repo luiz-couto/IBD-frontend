@@ -4,11 +4,11 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu, Card } from 'antd';
 
 import { query } from "../../utils/database/query";
 
-const { Content } = Layout;
+const { Content, Header } = Layout;
 const { Text } = Typography;
 
 class SearchCountry extends React.Component{
@@ -22,6 +22,7 @@ class SearchCountry extends React.Component{
             selectedCountry: 'Brazil',
             current: 'search',
             countryData: {},
+            infoMenu: '1'
         };
     }
 
@@ -118,6 +119,17 @@ class SearchCountry extends React.Component{
         });
     };
 
+    handleClickInfoMenu = e => {
+        console.log('click ', e);
+        this.setState({
+          infoMenu: e.key,
+        });
+    };
+
+    displayCountryData(countryData) {
+        
+    }
+
     render() {
 
         // let sql = `SELECT warname, combatfatalities FROM interstate_wars WHERE statename='` + this.state.selectedCountry + `'`;
@@ -136,14 +148,11 @@ class SearchCountry extends React.Component{
                 console.log(e);
             }
         }
-        console.log(this.state.countryData);
+        let countryData = this.state.countryData;
         return (
             loading ? 
             <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
             :
-
-            
-
             <div>
                 <img src={countryImageData} alt="background" style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
@@ -164,9 +173,10 @@ class SearchCountry extends React.Component{
                                 </Menu.Item>
                             </Menu>
                             </div>
-                        <Col className='container'>
+                        <Col>
                             { this.state.current === 'search' ?
                             <>
+                            <Col className='container'>
                                 <Text className='title'>{this.state.selectedCountry}</Text>
                                 <AutoComplete
                                     dataSource={this.state.countryList}
@@ -182,8 +192,36 @@ class SearchCountry extends React.Component{
                                 >
                                 <Input suffix={<Icon type="search" style={{ marginRight: 20, fontSize: 20 }}/>} />
                                 </AutoComplete>
+                            </Col>
                             </> :
-                            <span>BLA</span>
+                            <div style={{ width: '70%', marginTop: '24vh', marginLeft: '16vw' }}>
+                                
+                                <Header style={{ zIndex: 1, width:'100%' }}>
+                                <div className="logo" />
+                                <Menu
+                                    theme="dark"
+                                    mode="horizontal"
+                                    selectedKeys={this.state.infoMenu}
+                                    style={{ lineHeight: '64px' }}
+                                    onClick={this.handleClickInfoMenu}
+                                >
+                                    <Menu.Item key="1">Country Index</Menu.Item>
+                                    <Menu.Item key="2">Wars</Menu.Item>
+                                </Menu>
+                                </Header>
+                                <Content>
+                                <Card style={{ width: '100%', height: '100%', backgroundColor: 'white'}}>
+                                   { this.state.infoMenu === '1' ?
+                                   <>
+                                    <Text></Text>
+
+
+                                   </> :
+                                    <span>BLA</span>
+                                   }
+                                </Card>
+                                </Content>
+                            </div>
                             }
                         </Col>
                     </Content>
