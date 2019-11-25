@@ -4,7 +4,7 @@ import SiderMenu from '../../components/SiderMenu';
 import './styles.css';
 
 import analyze from 'rgbaster';
-import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu, Card, Row, Divider } from 'antd';
+import { AutoComplete, Layout, Input, Icon, Typography, Col, Spin, Menu, Card, Row, Divider, Table } from 'antd';
 
 import { query } from "../../utils/database/query";
 
@@ -172,6 +172,18 @@ class SearchCountry extends React.Component{
             }
         }
         let countryData = this.state.countryData;
+        const columns = [
+            {
+              title: 'War Name',
+              dataIndex: 'warname',
+              width: 150,
+            },
+            {
+              title: 'Fatalities',
+              dataIndex: 'combatfatalities',
+              width: 150,
+            },
+          ];
         return (
             loading ? 
             <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
@@ -243,19 +255,7 @@ class SearchCountry extends React.Component{
                                     {this.displayCountryData('Expected Years in School', countryData.expectedYearsSchooling, 'book', 'indicators')}
                                     {this.displayCountryData('GNI per capita', countryData.gniPerCapita.replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'dollar', 'indicators')}
                                    </Col> :
-                                    <Col key='col2'>
-                                    <Row>
-                                        <Text style={{ color: 'grey', fontSize: 22, marginLeft: 15 }}>{'War Name'}</Text>
-                                        <Text style={{ color: 'grey', fontSize: 22, float: 'right' }}>{'Combat Fatalities'}</Text>
-                                        <Divider style={{ height: 2, backgroundColor: 'rgb(12,12,12)'}}/>
-                                    </Row>
-                                    {
-                                        countryData.wars && countryData.wars.map((war) => {
-                                            console.log(war)
-                                            return this.displayCountryData(war.warname, war.combatfatalities.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'fire', 'wars');
-                                        })
-                                    }
-                                    </Col>
+                                    <Table columns={columns} dataSource={countryData.wars} scroll={{ y: 340 }} pagination={false} />
                                    }
                                 </Card>
                                 </Content>
