@@ -45,7 +45,7 @@ const Demographic = () => {
 
     return (
         <div>
-                <img src={require('../../pages/Communication_and_Information/background.jpg')} style={{ width: '100vw', position:'absolute',
+                <img src={require('../../pages/Demographic/background.jpg')} alt="back" style={{ width: '100vw', position:'absolute',
                 height: 'auto', maxHeight: '100vh', backgroundSize: 'cover' }} />
                 <Layout>
                     <SiderMenu color={'rgb(0,0,0)'} selectedItem={["2"]}/>
