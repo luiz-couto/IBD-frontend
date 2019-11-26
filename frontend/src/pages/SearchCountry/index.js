@@ -29,6 +29,8 @@ class SearchCountry extends React.Component{
     getCountryData(countryName) {
         let population, hdi, lifeExpectancy, expectedYearsSchooling, gniPerCapita, infantMortality;
         let wars;
+        let soocer_matches;
+        let gols_por_ano;
         let sql = `SELECT * FROM demographic_and_socio_economic WHERE country='` + countryName + `'` + `AND indicator='` + 'Total population ' + `'`;
         query(sql).then((data)=> {
             if(data.rows[0]){
@@ -43,10 +45,23 @@ class SearchCountry extends React.Component{
                 wars = data.rows;
             }
         })
+    
+        sql = `SELECT * FROM soocer_matches WHERE soocer_matches.hometeam='` + countryName + `' OR soocer_matches.awayteam='` + countryName + `' ORDER BY soocer_matches.date DESC`;
+        query(sql).then((data)=> {
+            if(data.rows.length > 0){
+                soocer_matches = data.rows;
+            }
+
+        });
+        sql = `SELECT * FROM soocer_matches WHERE soocer_matches.hometeam='` + countryName + `' OR soocer_matches.awayteam='` + countryName + `'`;
+        query(sql).then((data)=> {
+            console.log(data.rows);
+        });
 
         sql = `SELECT * FROM countries_of_the_world WHERE countryname='` + countryName + `'`;
         query(sql).then((data)=> {
             if(data.rows[0]){
+                console.log(data);
                 hdi = data.rows[0].hdi;
                 lifeExpectancy = data.rows[0].lifeexpectancy;
                 expectedYearsSchooling = data.rows[0].expectedyearsschooling;
@@ -55,12 +70,13 @@ class SearchCountry extends React.Component{
         }).then(() => {
             this.setState({countryData:
                 {   
-                    population: population,
-                    hdi: hdi,
-                    lifeExpectancy: lifeExpectancy,
-                    expectedYearsSchooling: expectedYearsSchooling,
-                    gniPerCapita: gniPerCapita,
-                    wars: wars
+                    population,
+                    hdi,
+                    lifeExpectancy,
+                    expectedYearsSchooling,
+                    gniPerCapita,
+                    wars,
+                    soocer_matches,
                 }
             });
         })
@@ -184,6 +200,34 @@ class SearchCountry extends React.Component{
               width: 150,
             },
           ];
+
+          const soocerMatches = [
+            {
+              title: 'Data',
+              dataIndex: 'date',
+              width: 150,
+            },
+            {
+                title: 'Time da Casa',
+                dataIndex: 'hometeam',
+                width: 150,
+            },
+            {
+                title: 'Time Visitante',
+                dataIndex: 'awayteam',
+                width: 150,
+            },
+            {
+                title: 'Gols da Casa',
+                dataIndex: 'homescore',
+                width: 150,
+            },
+            {
+                title: 'Gols dos Visitantes',
+                dataIndex: 'awayscore',
+                width: 150,
+            },
+          ];
         return (
             loading ? 
             <Spin size='large' style={{ marginLeft: '50%', marginTop: '10%' }}/>
@@ -242,6 +286,7 @@ class SearchCountry extends React.Component{
                                 >
                                     <Menu.Item key="1">Country Index</Menu.Item>
                                     <Menu.Item key="2">Wars</Menu.Item>
+                                    <Menu.Item key="3">Soocer Matches</Menu.Item>
                                 </Menu>
                                 </Header>
                                 { countryData.gniPerCapita &&
@@ -254,9 +299,11 @@ class SearchCountry extends React.Component{
                                     {this.displayCountryData('Life Expectancy', countryData.lifeExpectancy, 'heart', 'indicators')}
                                     {this.displayCountryData('Expected Years in School', countryData.expectedYearsSchooling, 'book', 'indicators')}
                                     {this.displayCountryData('GNI per capita', countryData.gniPerCapita.replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'dollar', 'indicators')}
-                                   </Col> :
-                                    <Table columns={columns} dataSource={countryData.wars} scroll={{ y: 340 }} pagination={false} />
+                                   </Col> :this.state.infoMenu === '2' ?
+                                    <Table columns={columns} dataSource={countryData.wars} scroll={{ y: 340 }} pagination={true} /> :
+                                    <Table columns={soocerMatches} dataSource={countryData.soocer_matches} scroll={{ y: 340 }} pagination={true} />
                                    }
+
                                 </Card>
                                 </Content>
                                 }

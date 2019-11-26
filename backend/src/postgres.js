@@ -17,6 +17,7 @@ async function setUpDatabase(db){
     const images = require("./tables/images");
     const countries_of_the_world = require("./tables/countries_of_the_world");
     const interstate_wars = require("./tables/interstate_wars");
+    const soocer_matches = require("./tables/soocer_matches");
 
     //https://www.robinwieruch.de/postgres-sql-macos-setup
 
@@ -58,6 +59,13 @@ async function setUpDatabase(db){
     try {
         await db.query(interstate_wars.sqlCreateCommand);
         await db.query(interstate_wars.sqlInsertCommand);
+    } catch(e) {
+        console.log(e.message);
+    }
+
+    try {
+        await db.query(soocer_matches.sqlCreateCommand);
+        await db.query(soocer_matches.sqlInsertCommand);
     } catch(e) {
         console.log(e.message);
     }
