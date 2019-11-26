@@ -45,7 +45,7 @@ class SearchCountry extends React.Component{
                 wars = data.rows;
             }
         })
-    
+
         sql = `SELECT * FROM soocer_matches WHERE soocer_matches.hometeam='` + countryName + `' OR soocer_matches.awayteam='` + countryName + `' ORDER BY soocer_matches.date DESC`;
         query(sql).then((data)=> {
             if(data.rows.length > 0){
