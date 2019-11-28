@@ -203,27 +203,27 @@ class SearchCountry extends React.Component{
 
           const soocerMatches = [
             {
-              title: 'Data',
+              title: 'Date',
               dataIndex: 'date',
               width: 150,
             },
             {
-                title: 'Time da Casa',
+                title: 'Home Team',
                 dataIndex: 'hometeam',
                 width: 150,
             },
             {
-                title: 'Time Visitante',
+                title: 'Away Team',
                 dataIndex: 'awayteam',
                 width: 150,
             },
             {
-                title: 'Gols da Casa',
+                title: 'Home Score',
                 dataIndex: 'homescore',
                 width: 150,
             },
             {
-                title: 'Gols dos Visitantes',
+                title: 'Away Score',
                 dataIndex: 'awayscore',
                 width: 150,
             },
@@ -301,7 +301,7 @@ class SearchCountry extends React.Component{
                                     {this.displayCountryData('GNI per capita', countryData.gniPerCapita.replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'dollar', 'indicators')}
                                    </Col> :this.state.infoMenu === '2' ?
                                     <Table columns={columns} dataSource={countryData.wars} scroll={{ y: 340 }} pagination={true} /> :
-                                    <Table columns={soocerMatches} dataSource={countryData.soocer_matches} scroll={{ y: 340 }} pagination={true} />
+                                    <Table columns={soocerMatches} dataSource={countryData.soocer_matches} scroll={{ y: 300 }} pagination={true} />
                                    }
 
                                 </Card>

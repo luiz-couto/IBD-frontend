@@ -157,6 +157,117 @@ const guatemalaImage = new Buffer(guatemalaBuffer).toString("base64");
 const croatiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","croatia.jpg"));
 const croatiaImage = new Buffer(croatiaBuffer).toString("base64");
 
+const liechtensteinBuffer = fs.readFileSync(path.resolve(".","src","tables","images","liechtenstein.jpg"));
+const liechtensteinImage = new Buffer(liechtensteinBuffer).toString("base64");
+
+const sloveniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","slovenia.jpg"));
+const sloveniaImage = new Buffer(sloveniaBuffer).toString("base64");
+
+const czechiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","czechia.jpg"));
+const czechiaImage = new Buffer(czechiaBuffer).toString("base64");
+
+const maltaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","malta.jpg"));
+const maltaImage = new Buffer(maltaBuffer).toString("base64");
+
+const cyprusBuffer = fs.readFileSync(path.resolve(".","src","tables","images","cyprus.jpg"));
+const cyprusImage = new Buffer(cyprusBuffer).toString("base64");
+
+const arab_emiratesBuffer = fs.readFileSync(path.resolve(".","src","tables","images","arab_emirates.jpg"));
+const arab_emiratesImage = new Buffer(arab_emiratesBuffer).toString("base64");
+
+const andorraBuffer = fs.readFileSync(path.resolve(".","src","tables","images","andorra.jpg"));
+const andorraImage = new Buffer(andorraBuffer).toString("base64");
+
+const lithuaniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","lithuania.jpg"));
+const lithuaniaImage = new Buffer(lithuaniaBuffer).toString("base64");
+
+const hungaryBuffer = fs.readFileSync(path.resolve(".","src","tables","images","hungary.jpg"));
+const hungaryImage = new Buffer(hungaryBuffer).toString("base64");
+
+const omanBuffer = fs.readFileSync(path.resolve(".","src","tables","images","oman.jpg"));
+const omanImage = new Buffer(omanBuffer).toString("base64");
+
+const montenegroBuffer = fs.readFileSync(path.resolve(".","src","tables","images","montenegro.jpg"));
+const montenegroImage = new Buffer(montenegroBuffer).toString("base64");
+
+const romaniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","romania.jpg"));
+const romaniaImage = new Buffer(romaniaBuffer).toString("base64");
+
+const kuwaitBuffer = fs.readFileSync(path.resolve(".","src","tables","images","kuwait.jpg"));
+const kuwaitImage = new Buffer(kuwaitBuffer).toString("base64");
+
+const malaysiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","malaysia.jpg"));
+const malaysiaImage = new Buffer(malaysiaBuffer).toString("base64");
+
+const kazakhstanBuffer = fs.readFileSync(path.resolve(".","src","tables","images","kazakhstan.jpg"));
+const kazakhstanImage = new Buffer(kazakhstanBuffer).toString("base64");
+
+const iranBuffer = fs.readFileSync(path.resolve(".","src","tables","images","iran.jpg"));
+const iranImage = new Buffer(iranBuffer).toString("base64");
+
+const costa_ricaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","costa_rica.jpg"));
+const costa_ricaImage = new Buffer(costa_ricaBuffer).toString("base64");
+
+const turkeyBuffer = fs.readFileSync(path.resolve(".","src","tables","images","turkey.jpg"));
+const turkeyImage = new Buffer(turkeyBuffer).toString("base64");
+
+const panamaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","panama.jpg"));
+const panamaImage = new Buffer(panamaBuffer).toString("base64");
+
+const serbiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","serbia.jpg"));
+const serbiaImage = new Buffer(serbiaBuffer).toString("base64");
+
+const albaniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","albania.jpg"));
+const albaniaImage = new Buffer(albaniaBuffer).toString("base64");
+
+const georgiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","georgia.jpg"));
+const georgiaImage = new Buffer(georgiaBuffer).toString("base64");
+
+const cubaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","cuba.jpg"));
+const cubaImage = new Buffer(cubaBuffer).toString("base64");
+
+const grenadaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","grenada.jpg"));
+const grenadaImage = new Buffer(grenadaBuffer).toString("base64");
+
+const sri_lankaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","sri_lanka.jpg"));
+const sri_lankaImage = new Buffer(sri_lankaBuffer).toString("base64");
+
+const venezuelaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","venezuela.jpg"));
+const venezuelaImage = new Buffer(venezuelaBuffer).toString("base64");
+
+const azerbaijanBuffer = fs.readFileSync(path.resolve(".","src","tables","images","azerbaijan.jpg"));
+const azerbaijanImage = new Buffer(azerbaijanBuffer).toString("base64");
+
+const lebanonBuffer = fs.readFileSync(path.resolve(".","src","tables","images","lebanon.jpg"));
+const lebanonImage = new Buffer(lebanonBuffer).toString("base64");
+
+const armeniaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","armenia.jpg"));
+const armeniaImage = new Buffer(armeniaBuffer).toString("base64");
+
+const thailandBuffer = fs.readFileSync(path.resolve(".","src","tables","images","thailand.jpg"));
+const thailandImage = new Buffer(thailandBuffer).toString("base64");
+
+const algeriaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","algeria.jpg"));
+const algeriaImage = new Buffer(algeriaBuffer).toString("base64");
+
+const saint_luciaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","saint_lucia.jpg"));
+const saint_luciaImage = new Buffer(saint_luciaBuffer).toString("base64");
+
+const fijiBuffer = fs.readFileSync(path.resolve(".","src","tables","images","fiji.jpg"));
+const fijiImage = new Buffer(fijiBuffer).toString("base64");
+
+const mongoliaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","mongolia.jpg"));
+const mongoliaImage = new Buffer(mongoliaBuffer).toString("base64");
+
+const jordanBuffer = fs.readFileSync(path.resolve(".","src","tables","images","jordan.jpg"));
+const jordanImage = new Buffer(jordanBuffer).toString("base64");
+
+const tunisiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","tunisia.jpg"));
+const tunisiaImage = new Buffer(tunisiaBuffer).toString("base64");
+
+const jamaicaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","jamaica.jpg"));
+const jamaicaImage = new Buffer(jamaicaBuffer).toString("base64");
+
 let sqlInsertCommand = 
 `INSERT INTO IMAGES
 VALUES 
@@ -209,7 +320,44 @@ VALUES
 ('Uruguay', '${uruguayImage}'),
 ('Ecuador', '${ecuadorImage}'),
 ('Guatemala', '${guatemalaImage}'),
-('Croatia', '${croatiaImage}')
+('Croatia', '${croatiaImage}'),
+('Liechtenstein', '${liechtensteinImage}'),
+('Slovenia', '${sloveniaImage}'),
+('Czechia', '${czechiaImage}'),
+('Malta', '${maltaImage}'),
+('Cyprus', '${cyprusImage}'),
+('Arab Emirates', '${arab_emiratesImage}'),
+('Andorra', '${andorraImage}'),
+('Lithuania', '${lithuaniaImage}'),
+('Hungary', '${hungaryImage}'),
+('Oman', '${omanImage}'),
+('Montenegro', '${montenegroImage}'),
+('Romania', '${romaniaImage}'),
+('Kuwait', '${kuwaitImage}'),
+('Malaysia', '${malaysiaImage}'),
+('Kazakhstan', '${kazakhstanImage}'),
+('Iran', '${iranImage}'),
+('Costa Rica', '${costa_ricaImage}'),
+('Turkey', '${turkeyImage}'),
+('Panama', '${panamaImage}'),
+('Serbia', '${serbiaImage}'),
+('Albania', '${albaniaImage}'),
+('Georgia', '${georgiaImage}'),
+('Cuba', '${cubaImage}'),
+('Grenada', '${grenadaImage}'),
+('Sri Lanka', '${sri_lankaImage}'),
+('Venezuela', '${venezuelaImage}'),
+('Azerbaijan', '${azerbaijanImage}'),
+('Lebanon', '${lebanonImage}'),
+('Armenia', '${armeniaImage}'),
+('Thailand', '${thailandImage}'),
+('Algeria', '${algeriaImage}'),
+('Saint Lucia', '${saint_luciaImage}'),
+('Fiji', '${fijiImage}'),
+('Mongolia', '${mongoliaImage}'),
+('Jordan', '${jordanImage}'),
+('Tunisia', '${tunisiaImage}'),
+('Jamaica', '${jamaicaImage}')
 ;`;
 
 module.exports = {
