@@ -109,7 +109,7 @@ const slovakiaImage = new Buffer(slovakiaBuffer).toString("base64");
 const chileBuffer = fs.readFileSync(path.resolve(".","src","tables","images","chile.jpg"));
 const chileImage = new Buffer(chileBuffer).toString("base64");
 
-const argentinaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","argentina.jpg"));
+const argentinaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","argentina.jpeg"));
 const argentinaImage = new Buffer(argentinaBuffer).toString("base64");
 
 const colombiaBuffer = fs.readFileSync(path.resolve(".","src","tables","images","colombia.jpg"));
