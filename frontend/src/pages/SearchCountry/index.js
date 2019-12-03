@@ -39,8 +39,9 @@ class SearchCountry extends React.Component{
             }
         });
 
-        sql = `SELECT warname, combatfatalities FROM interstate_wars WHERE statename='` + countryName + `'`;
+        sql = `SELECT warname, combatfatalities FROM wars NATURAL JOIN wars_country_code NATURAL JOIN fight_war WHERE country='` + countryName + `'`;
         query(sql).then((data)=>{
+            console.log(data);
             if(data.rows){
                 wars = data.rows;
             }
@@ -55,13 +56,12 @@ class SearchCountry extends React.Component{
         });
         sql = `SELECT * FROM soocer_matches WHERE soocer_matches.hometeam='` + countryName + `' OR soocer_matches.awayteam='` + countryName + `'`;
         query(sql).then((data)=> {
-            console.log(data.rows);
+            //console.log(data.rows);
         });
 
-        sql = `SELECT * FROM countries WHERE countryname='` + countryName + `'`;
+        sql = `SELECT * FROM countries WHERE country='` + countryName + `'`;
         query(sql).then((data)=> {
             if(data.rows[0]){
-                console.log(data);
                 hdi = data.rows[0].hdi;
                 lifeExpectancy = data.rows[0].lifeexpectancy;
                 expectedYearsSchooling = data.rows[0].expectedyearsschooling;
@@ -84,12 +84,12 @@ class SearchCountry extends React.Component{
     }
 
     searchCountry(countryName) {
-        this.getCountryData(countryName);
+        this.setState({ loading: true });
+        this.getCountryData(countryName)
         let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
         query(sql).then((data) => {
             if (data) {
                 this.setState({
-                    loading: true,
                     selectedCountry: countryName,
                     countryImage: data.rows[0].data,
                 })
@@ -129,14 +129,12 @@ class SearchCountry extends React.Component{
     }
 
     handleClick = e => {
-        console.log('click ', e);
         this.setState({
           current: e.key,
         });
     };
 
     handleClickInfoMenu = e => {
-        console.log('click ', e);
         this.setState({
           infoMenu: e.key,
         });
@@ -206,6 +204,7 @@ class SearchCountry extends React.Component{
               title: 'Date',
               dataIndex: 'date',
               width: 150,
+              render: (date) => <span>{date.slice(0,10)}</span>
             },
             {
                 title: 'Home Team',
@@ -286,7 +285,7 @@ class SearchCountry extends React.Component{
                                 >
                                     <Menu.Item key="1">Country Index</Menu.Item>
                                     <Menu.Item key="2">Wars</Menu.Item>
-                                    <Menu.Item key="3">Soocer Matches</Menu.Item>
+                                    <Menu.Item key="3">Soccer Matches</Menu.Item>
                                 </Menu>
                                 </Header>
                                 { countryData.gniPerCapita &&
@@ -298,7 +297,7 @@ class SearchCountry extends React.Component{
                                     {this.displayCountryData('IDH', countryData.hdi, 'trophy', 'indicators')}
                                     {this.displayCountryData('Life Expectancy', countryData.lifeExpectancy, 'heart', 'indicators')}
                                     {this.displayCountryData('Expected Years in School', countryData.expectedYearsSchooling, 'book', 'indicators')}
-                                    {this.displayCountryData('GNI per capita', countryData.gniPerCapita.replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'dollar', 'indicators')}
+                                    {this.displayCountryData('GNI per capita', countryData.gniPerCapita.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "), 'dollar', 'indicators')}
                                    </Col> :this.state.infoMenu === '2' ?
                                     <Table columns={columns} dataSource={countryData.wars} scroll={{ y: 340 }} pagination={true} /> :
                                     <Table columns={soocerMatches} dataSource={countryData.soocer_matches} scroll={{ y: 300 }} pagination={true} />
