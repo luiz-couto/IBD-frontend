@@ -1,6 +1,6 @@
 const fastify = require('fastify')()
 const setUpServer = require("./set-up-server") 
-const {db} = require("./postgres");
+const { db } = require("./db");
 
 fastify.register(require('fastify-cors'), { 
   origin: true,

@@ -58,7 +58,7 @@ class SearchCountry extends React.Component{
             console.log(data.rows);
         });
 
-        sql = `SELECT * FROM countries_of_the_world WHERE countryname='` + countryName + `'`;
+        sql = `SELECT * FROM countries WHERE countryname='` + countryName + `'`;
         query(sql).then((data)=> {
             if(data.rows[0]){
                 console.log(data);

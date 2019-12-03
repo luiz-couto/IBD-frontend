@@ -1,17 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import { query } from "../../utils/database/query";
-import PointGraph from "../../components/PointGraph";
-import LineSeries from "../../components/LineGraph";
 import MarkSeriesGraph from '../../components/MarkSeriesGraph';
 
 import SiderMenu from '../../components/SiderMenu';
-import { AutoComplete, Layout, Card, Input, Icon, Typography, Col, Spin, Menu } from 'antd';
+import { Layout, Card, Col } from 'antd';
 
 import 'react-vis/dist/style.css';
 
 const { Content } = Layout;
-
-
 
 const Demographic = () => {
     const [indicators, setIndicators] = useState([]);
@@ -25,7 +21,7 @@ const Demographic = () => {
             setIndicators(data.rows);
             setSelectedIndicator(data.rows[0].indicator)
         });
-        query(`SELECT Country FROM comunication_and_information GROUP BY Country`).then((data) => {
+        query(`SELECT country FROM comunication_and_information GROUP BY country`).then((data) => {
             setCountrys(data.rows);
         });
     },[]);
@@ -65,11 +61,7 @@ const Demographic = () => {
                                 }
                             </select>
                             <div style={{marginBottom: "40px"}}/>
-                            {/* <PointGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
                             <MarkSeriesGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/>
-                            {/* <LineSeries fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
-                            {/* <BarGraph fetchedData={fetchedData} countrys={countrys} loadingData={loadingData}/> */}
-
                         </Card>
                         </Col>
                         </Content>

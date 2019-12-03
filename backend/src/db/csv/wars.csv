@@ -1,0 +1,96 @@
+warid,warname,startyear,startmonth,startday,endyear,endmonth,endday,initiation,combatlocation,outcome
+1,Franco-Spanish War,1823,4,7,1823,11,13,2,2,2
+4,First Russo-Turkish,1828,4,26,1829,9,14,2,11,2
+7,Mexican-American,1846,4,25,1847,9,14,2,1,2
+10,Austro-Sardinian,1848,3,29,1848,8,9,2,2,2
+13,First Schleswig-Holstein,1848,4,10,1848,8,26,1,2,1
+16,Roman Republic,1849,4,30,1849,7,2,1,2,1
+19,La Plata,1851,7,19,1852,2,3,2,1,2
+22,Crimean,1853,10,23,1856,3,1,1,2,1
+25,Anglo-Persian,1856,10,25,1857,4,5,1,6,1
+28,Italian Unification,1859,4,29,1859,7,12,2,2,1
+31,First Spanish-Moroccan,1859,10,22,1860,3,25,2,6,2
+34,Italian-Roman,1860,9,11,1860,9,29,1,2,1
+37,Neapolitan,1860,10,15,1861,2,13,2,2,2
+40,Franco-Mexican,1862,4,16,1867,2,5,2,1,4
+43,Ecuadorian-Colombian,1863,11,22,1863,12,6,1,1,1
+46,Second Schleswig-Holstein,1864,2,1,1864,4,25,1,2,1
+49,Lopez,1865,3,5,1870,3,1,2,1,1
+52,Naval War,1865,9,25,1866,5,9,2,1,1
+55,Seven Weeks,1866,6,20,1866,7,26,2,2,1
+58,Franco-Prussian,1870,7,19,1870,11,25,2,2,1
+60,First Central American,1876,3,27,1876,4,25,1,1,1
+61,Second Russo-Turkish,1877,4,24,1878,1,31,2,11,2
+64,War of the Pacific,1879,2,14,1883,12,11,1,1,1
+65,Conquest of Egypt,1882,7,11,1882,9,15,2,6,2
+67,Sino-French,1884,6,15,1885,6,9,1,7,1
+70,Second Central American,1885,3,28,1885,4,15,2,1,1
+73,First Sino-Japanese,1894,7,25,1895,3,30,2,7,2
+76,Greco-Turkish,1897,2,15,1897,5,19,1,2,2
+79,Spanish-American,1898,4,22,1898,8,12,2,13,2
+82,Boxer Rebellion,1900,6,17,1900,8,14,1,7,1
+83,Sino-Russian,1900,7,17,1900,10,10,1,7,1
+85,Russo-Japanese,1904,2,8,1905,9,15,1,7,1
+88,Third Central American,1906,5,27,1906,7,20,2,1,2
+91,Fourth Central American,1907,2,19,1907,4,23,1,1,1
+94,Second Spanish-Moroccan,1909,7,7,1910,3,23,1,6,1
+97,Italian-Turkish,1911,9,29,1912,10,18,1,6,1
+100,First Balkan,1912,10,17,1913,4,19,2,11,2
+103,Second Balkan,1913,7,15,1913,7,30,2,2,1
+106,World War I,1914,7,29,1918,11,11,2,2,1
+107,Estonian Liberation,1918,11,22,1920,1,3,2,2,1
+108,Latvian Liberation,1918,12,7,1919,4,15,2,2,8
+109,Russo-Polish,1919,2,14,1920,10,18,1,2,2
+112,Hungarian Adversaries,1919,4,16,1919,8,4,2,2,2
+115,Second Greco-Turkish,1919,5,5,1922,10,11,2,11,1
+116,Franco-Turkish,1919,11,1,1921,10,20,2,6,3
+117,Lithuanian-Polish,1920,7,15,1920,12,1,2,2,2
+118,Manchurian,1929,8,17,1929,12,3,1,7,1
+121,Second Sino-Japanese,1931,12,19,1933,5,22,1,7,1
+124,Chaco,1932,6,15,1935,6,12,1,1,2
+125,Saudi-Yemeni,1934,3,20,1934,5,13,1,6,1
+127,Conquest of Ethiopia,1935,10,3,1936,5,9,1,4,1
+130,Third Sino-Japanese,1937,7,7,1941,12,6,2,7,2
+133,Changkufeng,1938,7,29,1938,8,11,2,7,1
+136,Nomonhan,1939,5,11,1939,9,16,2,7,1
+139,World War II,1941,6,27,1945,1,20,2,2,2
+142,Russo-Finnish,1939,11,30,1940,3,12,2,2,2
+145,Franco-Thai,1940,12,1,1941,1,28,2,7,2
+147,First Kashmir,1947,10,26,1949,1,1,1,7,6
+148,Arab-Israeli,1948,5,15,1948,7,18,2,6,1
+151,Korean,1950,10,27,1953,7,27,2,7,6
+153,Off-shore Islands,1954,9,3,1955,4,23,1,7,1
+155,Sinai War,1956,10,31,1956,11,6,2,6,1
+156,Soviet Invasion of Hungary,1956,11,4,1956,11,14,2,2,2
+158,IfniWar,1958,2,10,1958,4,10,2,6,1
+159,Taiwan Straits,1958,8,23,1958,11,23,1,7,6
+160,Assam,1962,10,20,1962,11,22,2,7,2
+163,Vietnam War Phase 2,1965,2,7,1973,1,27,1,7,2
+166,Second Kashmir,1965,8,5,1965,9,23,2,7,2
+169,Six Day War,1967,6,5,1967,6,10,1,6,1
+170,Second Laotian Phase 2,1968,1,13,1973,4,17,2,7,2
+172,War of Attrition,1969,3,6,1970,8,7,1,6,6
+175,Football War,1969,7,14,1969,7,18,2,1,2
+176,Communist Coalition,1970,3,23,1971,7,2,1,7,4
+178,Bangladesh,1971,12,3,1971,12,17,2,7,1
+181,Yom Kippur War,1973,10,6,1973,10,24,1,6,2
+184,Turco-Cypriot,1974,7,20,1974,7,29,1,2,1
+186,War over Angola,1975,10,23,1976,2,12,2,4,4
+187,Second Ogaden War Phase 2,1977,7,23,1978,3,9,2,4,4
+189,Vietnamese-Cambodian,1977,9,24,1979,1,8,2,7,4
+190,Ugandian-Tanzanian,1978,10,28,1979,4,11,1,4,2
+193,Sino-Vietnamese Punitive,1979,2,17,1979,3,16,1,7,1
+199,Iran-Iraq,1980,9,22,1988,8,20,1,6,6
+202,Falkland Islands,1982,3,25,1982,6,15,2,1,1
+205,War over Lebanon,1982,4,21,1982,9,15,1,6,6
+207,War over the Aouzou Strip,1986,11,15,1987,9,11,1,18,1
+208,Sino-Vietnamese Border War,1987,1,5,1987,2,6,2,7,6
+211,Gulf War,1990,8,2,1991,4,11,2,6,1
+215,Bosnian Independence,1992,4,7,1992,5,13,2,2,4
+216,Azeri-Armenian,1993,2,6,1994,5,12,2,2,2
+217,Cenepa Valley,1995,1,9,1995,2,27,1,1,3
+219,Badme Border,1998,5,6,2000,12,12,1,4,6
+221,War for Kosovo,1999,3,24,1999,6,10,1,2,1
+223,Kargil War,1999,5,8,1999,7,17,2,7,1
+225,Invasion of Afghanistan,2001,11,15,2001,12,22,2,7,4
+227,Invasion of Iraq,2003,3,19,2003,5,2,1,6,4
