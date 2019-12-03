@@ -6,7 +6,7 @@ const client = new Client({
     port: 5432,
     database: "postgres",
     user: "postgres",
-    password: "postgres"
+    password: "postgres",
 });
 
 async function setUpDatabase(db){
