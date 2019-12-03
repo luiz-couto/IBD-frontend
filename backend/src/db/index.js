@@ -93,7 +93,7 @@ async function setUpDatabase(db){
             datatype: "TEXT",
         },
         "time": {
-            datatype: "integer",
+            datatype: "INTEGER",
         },
         "value": {
             datatype: "NUMERIC",
