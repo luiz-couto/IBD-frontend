@@ -84,12 +84,12 @@ class SearchCountry extends React.Component{
     }
 
     searchCountry(countryName) {
+        this.setState({ loading: true });
         this.getCountryData(countryName);
         let sql = `SELECT data FROM IMAGES WHERE country='` + countryName + `'`;
         query(sql).then((data) => {
             if (data) {
                 this.setState({
-                    loading: true,
                     selectedCountry: countryName,
                     countryImage: data.rows[0].data,
                 })
@@ -286,7 +286,7 @@ class SearchCountry extends React.Component{
                                 >
                                     <Menu.Item key="1">Country Index</Menu.Item>
                                     <Menu.Item key="2">Wars</Menu.Item>
-                                    <Menu.Item key="3">Soocer Matches</Menu.Item>
+                                    <Menu.Item key="3">Soccer Matches</Menu.Item>
                                 </Menu>
                                 </Header>
                                 { countryData.gniPerCapita &&

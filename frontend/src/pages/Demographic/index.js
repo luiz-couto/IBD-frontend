@@ -21,11 +21,11 @@ const Demographic = () => {
     const [fetchedData, setFetchedData] = useState([]);
 
     useEffect(() => {
-        query(`SELECT indicator FROM comunication_and_information GROUP BY indicator`).then((data) => {
+        query(`SELECT indicator FROM demographic_and_socio_economic GROUP BY indicator`).then((data) => {
             setIndicators(data.rows);
             setSelectedIndicator(data.rows[0].indicator)
         });
-        query(`SELECT Country FROM comunication_and_information GROUP BY Country`).then((data) => {
+        query(`SELECT Country FROM demographic_and_socio_economic GROUP BY Country`).then((data) => {
             setCountrys(data.rows);
         });
     },[]);
@@ -36,7 +36,7 @@ const Demographic = () => {
             return;
         }
         setLoadingData(true);
-        query(`SELECT country, time, value FROM comunication_and_information WHERE Indicator='${selectedIndicator}'`).then((data) => {
+        query(`SELECT country, time, value FROM demographic_and_socio_economic WHERE Indicator='${selectedIndicator}' LIMIT 100`).then((data) => {
             setLoadingData(false);
             setFetchedData(data.rows);
         });
@@ -54,7 +54,7 @@ const Demographic = () => {
                         <Col>
                         <Card style={{ backgroundColor: 'white', width: '60vw' , marginLeft:'10vw', marginTop: '10vh', borderRadius: 20 }}>
                             <h1>
-                                Communication and Information
+                                Demographic and Socio Economics
                             </h1>
                             Indicator: <select onChange={(event) => {setSelectedIndicator(event.target.value)}} name="select">
                                 {
