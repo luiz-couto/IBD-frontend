@@ -1,7 +1,7 @@
 const { convertCSVToSQL } = require("../../../utils/csv-to-sql");
 const path = require("path");
 
-module.exports = convertCSVToSQL("comunication_and_information", path.resolve("tables/comunication_and_information","./CAI_DS_27102019203343442.csv").toString(), "|", {
+module.exports = convertCSVToSQL("comunication_and_information", path.resolve("src/db/tables/comunication_and_information","./CAI_DS_27102019203343442.csv").toString(), "|", {
     "CAI_IND": {
         datatype: "TEXT",
     },

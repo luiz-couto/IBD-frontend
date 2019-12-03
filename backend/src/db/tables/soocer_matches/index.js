@@ -1,7 +1,7 @@
 const { convertCSVToSQL } = require("../../../utils/csv-to-sql");
 const path = require("path");
 
-module.exports = convertCSVToSQL("soocer_matches", path.resolve("tables/soocer_matches","./results.csv"), ",", {
+module.exports = convertCSVToSQL("soocer_matches", path.resolve("src/db/tables/soocer_matches","./results.csv"), ",", {
     "date": {
         datatype: "DATE",
     },
