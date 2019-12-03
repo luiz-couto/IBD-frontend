@@ -67,7 +67,6 @@ async function setUpDatabase(db){
         DROP COLUMN endday2,
         DROP COLUMN previouswar,
         DROP COLUMN initiation,
-        DROP COLUMN combatlocation,
         DROP COLUMN outcome,
         DROP COLUMN nextwar;`
         );
@@ -112,6 +111,7 @@ async function setUpDatabase(db){
         DROP COLUMN endyear2,
         DROP COLUMN endmonth2,
         DROP COLUMN combatfatalities,
+        DROP COLUMN combatlocation,
         DROP COLUMN endday2;` 
     );
     await db.query(
@@ -201,14 +201,14 @@ async function setUpDatabase(db){
     );
 
 
-    await db.query(`COPY countries_of_the_world TO '${path.resolve("./csv/countries.csv")}' DELIMITER ',' CSV HEADER;`);
-    await db.query(`COPY interstate_wars TO '${path.resolve("./csv/wars.csv")}' DELIMITER ',' CSV HEADER;`);
-    await db.query(`COPY fight_war TO '${path.resolve("./csv/fight_war.csv")}' DELIMITER ',' CSV HEADER;`);
-    await db.query(`COPY war_state_code TO '${path.resolve("./csv/wars_country_code.csv")}' DELIMITER ',' CSV HEADER;`);
-    await db.query(`COPY comunication_and_information TO '${path.resolve("./csv/comunication_and_information.csv")}' DELIMITER '|' CSV HEADER;`);
-    await db.query(`COPY demographic_and_socio_economic TO '${path.resolve("./csv/demographic_and_socio_economic.csv")}' DELIMITER '|' CSV HEADER;`);
-    await db.query(`COPY innovation TO '${path.resolve("./csv/innovation.csv")}' DELIMITER '|' CSV HEADER;`);
-    await db.query(`COPY soocer_matches TO '${path.resolve("./csv/soocer_matches.csv")}' DELIMITER ',' CSV HEADER;`);
+    await db.query(`COPY countries_of_the_world TO '${path.resolve("./src/db/csv/countries.csv")}' DELIMITER ',' CSV HEADER;`);
+    await db.query(`COPY interstate_wars TO '${path.resolve("./src/db/csv/wars.csv")}' DELIMITER ',' CSV HEADER;`);
+    await db.query(`COPY fight_war TO '${path.resolve("./src/db/csv/fight_war.csv")}' DELIMITER ',' CSV HEADER;`);
+    await db.query(`COPY war_state_code TO '${path.resolve("./src/db/csv/wars_country_code.csv")}' DELIMITER ',' CSV HEADER;`);
+    await db.query(`COPY comunication_and_information TO '${path.resolve("./src/db/csv/comunication_and_information.csv")}' DELIMITER '|' CSV HEADER;`);
+    await db.query(`COPY demographic_and_socio_economic TO '${path.resolve("./src/db/csv/demographic_and_socio_economic.csv")}' DELIMITER '|' CSV HEADER;`);
+    await db.query(`COPY innovation TO '${path.resolve("./src/db/csv/innovation.csv")}' DELIMITER '|' CSV HEADER;`);
+    await db.query(`COPY soocer_matches TO '${path.resolve("./src/db/csv/soocer_matches.csv")}' DELIMITER ',' CSV HEADER;`);
 }
 
 setUpDatabase(client).then(() => {

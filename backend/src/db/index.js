@@ -29,7 +29,7 @@ async function setUpDatabase(db){
         "value": {
             datatype: "NUMERIC",
         },
-        constraints: ``,
+        constraints: `PRIMARY KEY (indicator, country, time)`,
     });
     const demographic_and_socioeconomics = convertCSVToSQL("demographic_and_socio_economic", path.resolve("src/db","./csv/demographic_and_socio_economic.csv").toString(), "|", {
         "demoind": {
@@ -50,7 +50,7 @@ async function setUpDatabase(db){
         "value": {
             datatype: "NUMERIC",
         },
-        constraints: ``,
+        constraints: `PRIMARY KEY (indicator, country, time)`,
     });
     const countries = convertCSVToSQL("countries", path.resolve("src/db","./csv/countries.csv").toString(), ",", {
         "country": {
@@ -76,7 +76,8 @@ async function setUpDatabase(db){
         },
         "hdirank": {
             datatype: "TEXT",
-        },
+        },  
+        constraints: `PRIMARY KEY (country, hdirank)`,
     });
     const innovation = convertCSVToSQL("innovation", path.resolve("src/db","./csv/innovation.csv").toString(), "|", {
         "innovind": {
@@ -97,7 +98,8 @@ async function setUpDatabase(db){
         "value": {
             datatype: "NUMERIC",
         },
-        constraints: ``,
+        constraints: `PRIMARY KEY (indicator, country, time)`,
+
     });
     const wars = convertCSVToSQL("wars", path.resolve("src/db","./csv/wars.csv").toString(), ",", {
         "warid": {
@@ -127,13 +129,10 @@ async function setUpDatabase(db){
         "initiation": {
             datatype: "INTEGER",
         },
-        "combatlocation": {
-            datatype: "INTEGER",
-        },
         "outcome": {
             datatype: "INTEGER",
         },
-        constraints: ``,
+        constraints: `PRIMARY KEY (warid)`,
     });
     const wars_country_code = convertCSVToSQL("wars_country_code", path.resolve("src/db","./csv/wars_country_code.csv").toString(), ",", {
         "code": {
@@ -142,6 +141,7 @@ async function setUpDatabase(db){
         "country": {
             datatype: "TEXT",
         },
+        constraints: `PRIMARY KEY (country)`,
     });
     const fight_war = convertCSVToSQL("fight_war", path.resolve("src/db","./csv/fight_war.csv").toString(), ",", {
         "warid": {
@@ -156,6 +156,10 @@ async function setUpDatabase(db){
         "combatfatalities": {
             datatype: "INTEGER",
         },
+        "combatlocation": {
+            datatype: "INTEGER",
+        },
+        constraints: `PRIMARY KEY (warid,code, side)`,
     });
     const soocer_matches = convertCSVToSQL("soocer_matches", path.resolve("src/db","./csv/soocer_matches.csv").toString(), ",", {
         "date": {
@@ -185,32 +189,31 @@ async function setUpDatabase(db){
         "neutral": {
             datatype: "TEXT",
         },
+        constraints: `PRIMARY KEY (date, hometeam, awayteam, homescore, awayscore)`,
     });
 
     const images = require("./images");
 
     await db.connect();
     try {
-        await Promise.all([
-            db.query(images.sqlCreateCommand),
-            db.query(images.sqlInsertCommand),
-            db.query(communication_and_information.sqlCreateCommand),
-            db.query(communication_and_information.sqlInsertCommand),
-            db.query(demographic_and_socioeconomics.sqlCreateCommand),
-            db.query(demographic_and_socioeconomics.sqlInsertCommand),
-            db.query(countries.sqlCreateCommand),
-            db.query(countries.sqlInsertCommand),
-            db.query(innovation.sqlCreateCommand),
-            db.query(innovation.sqlInsertCommand),
-            db.query(wars.sqlCreateCommand),
-            db.query(wars.sqlInsertCommand),
-            db.query(wars_country_code.sqlCreateCommand),
-            db.query(wars_country_code.sqlInsertCommand),
-            db.query(fight_war.sqlCreateCommand),
-            db.query(fight_war.sqlInsertCommand),
-            db.query(soocer_matches.sqlCreateCommand),
-            db.query(soocer_matches.sqlInsertCommand),
-        ]);
+        await db.query(countries.sqlCreateCommand);
+        await db.query(countries.sqlInsertCommand);
+        await db.query(images.sqlCreateCommand);
+        await db.query(images.sqlInsertCommand);
+        await db.query(communication_and_information.sqlCreateCommand);
+        await db.query(communication_and_information.sqlInsertCommand);
+        await db.query(demographic_and_socioeconomics.sqlCreateCommand);
+        await db.query(demographic_and_socioeconomics.sqlInsertCommand);
+        await db.query(innovation.sqlCreateCommand);
+        await db.query(innovation.sqlInsertCommand);
+        await db.query(wars.sqlCreateCommand);
+        await db.query(wars.sqlInsertCommand);
+        await db.query(wars_country_code.sqlCreateCommand);
+        await db.query(wars_country_code.sqlInsertCommand);
+        await db.query(fight_war.sqlCreateCommand);
+        await db.query(fight_war.sqlInsertCommand);
+        await db.query(soocer_matches.sqlCreateCommand);
+        await db.query(soocer_matches.sqlInsertCommand);
     } catch(e) {
         console.log(e);
     }
